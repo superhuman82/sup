@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#000000" name="theme-color"/>
+<title>SUP | Galaxy One UI</title>
+<style>
+:root{--bg:#000;--panel:#18181b;--panel2:#222226;--text:#f5f5f7;--muted:#a5a5aa;--line:#3a3a3e;--green:#a9d8c0;--orange:#ff8b38}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font-family:Roboto,"Noto Sans KR",system-ui,-apple-system,sans-serif}
+button,input{font:inherit}button{cursor:pointer;color:inherit}.phone{width:min(100%,620px);min-height:100vh;margin:auto;background:#000;padding-bottom:76px;position:relative}
+.status{height:36px;padding:7px 22px 0;display:flex;justify-content:space-between;align-items:center;font-size:14px;font-weight:650;letter-spacing:.1px}.sys{display:flex;gap:7px;align-items:center;font-size:14px}
+.hero{height:285px;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-top:15px}.hero h1{font-size:54px;line-height:1.1;letter-spacing:-2px;margin:0 0 20px;font-weight:750}.hero p{margin:0;color:#aaa;font-size:27px;font-weight:650}
+.tools{display:flex;justify-content:flex-end;align-items:center;gap:23px;padding:0 24px 27px}.tool{border:0;background:none;font-size:34px;line-height:1;padding:4px;color:#f4f4f5;min-width:32px}.tool.more{font-size:31px}.searchbox{display:none;padding:0 20px 20px}.searchbox.show{display:block}.searchbox input{width:100%;height:48px;border:0;border-radius:25px;background:var(--panel);color:white;padding:0 18px;outline:none;font-size:16px}
+.content{padding:0 15px}.favorite{width:100%;border:0;border-radius:60px;background:var(--panel);min-height:108px;display:flex;align-items:center;gap:27px;padding:15px 35px;text-align:left;font-size:23px;font-weight:600;margin-bottom:26px}.star{width:72px;height:72px;display:grid;place-items:center;background:#ffb64d;color:white;border-radius:50%;font-size:35px;flex:none}
+.label{font-size:17px;font-weight:700;color:#aaa;margin:0 0 12px 28px}.contact-card{border-radius:48px;background:var(--panel);padding:9px 22px;margin-bottom:34px;overflow:hidden}.person{display:flex;align-items:center;gap:25px;min-height:92px;padding:8px 10px;border:0;background:transparent;width:100%;text-align:left;font-size:22px}.person+.person{border-top:1px solid #414145}
+.person{ text-decoration:none;position:relative}
+.person .external{margin-left:auto;color:#929297;font-size:17px;opacity:.8}
+.avatar.photo{font-size:19px;font-weight:750;letter-spacing:-.5px;border:1px solid #ffffff20;box-shadow:inset 0 0 0 1px #0002}
+.avatar.profilepic{background:radial-gradient(circle at 30% 25%,#ffd7a4,#bd6e53 58%,#532f39);color:#fff}
+.avatar.kubota{background:radial-gradient(circle at 30% 20%,#ffd4b7,#e58b60 52%,#874a3f);color:#fff}
+.avatar.karin{background:radial-gradient(circle at 30% 20%,#f7c5dc,#c66a9a 56%,#563c78);color:#fff}
+.avatar.jude{background:linear-gradient(140deg,#d8e4f4,#6d91c2 55%,#243d63);color:#fff}
+.avatar.cucu{background:linear-gradient(140deg,#f2d6bd,#b56f50 55%,#543b36);color:#fff}
+.avatar.hachi{background:linear-gradient(140deg,#bde8ff,#68a9d6 58%,#315f8a);color:#fff}
+.avatar.chiikawa{background:linear-gradient(140deg,#fff0d1,#e5c18c 58%,#9c7b58);color:#fff}
+.avatar.travis{background:linear-gradient(140deg,#e5b08c,#9b5a3d 58%,#30211d);color:#fff}
+.avatar.carti{background:linear-gradient(140deg,#d4c7e9,#806b9f 58%,#27202f);color:#fff}
+.avatar.central{background:linear-gradient(140deg,#c8d8e8,#7893ad 58%,#293848);color:#fff}
+.person:focus-visible{outline:2px solid #9bd8b7;outline-offset:2px}
+.avatar{width:73px;height:73px;flex:none;border-radius:50%;display:grid;place-items:center;background:#8bd4f1;color:#fff;font-size:27px;font-weight:500}.avatar.pink{background:#e58caf}.avatar.blue{background:#82b5ed}.avatar.green{background:#8bc6a4}.avatar.gray{background:#b9b9bc}.avatar.gold{background:#d9ae69}.avatar.purple{background:#b49be1}.avatar.red{background:#df858b}.name{min-width:0;overflow-wrap:anywhere}.group-head{font-size:18px;color:#aaa;font-weight:700;margin:30px 0 12px 35px}.group-card{background:var(--panel);border-radius:46px;padding:5px 22px;margin-bottom:30px}.person.small{min-height:88px;font-size:21px}.person.small .avatar{width:66px;height:66px;font-size:24px}
+.bottom-wrap{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,620px);height:72px;background:linear-gradient(180deg,rgba(0,0,0,0),#000 35%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:8px;z-index:5}.bottom{height:55px;width:68%;border-radius:32px;background:rgba(39,39,42,.96);display:flex;align-items:center;justify-content:space-around;box-shadow:0 5px 22px #0008}.bottom button{height:48px;min-width:30%;border:0;background:transparent;border-radius:40px;color:#e8e8ea;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:11px}.bottom button b{font-size:20px;line-height:1;font-weight:400}.bottom button.active{background:#454548;color:white;font-weight:700}
+
+.detail{display:none;position:fixed;inset:0;background:#000;z-index:10;padding:45px 24px 40px;max-width:620px;margin:auto}.detail.show{display:block}.detail .close{border:0;background:none;font-size:27px;padding:0 0 30px}.detail .bigavatar{width:112px;height:112px;border-radius:50%;display:grid;place-items:center;font-size:38px;margin:25px auto 15px;background:#8bd4f1}.detail h2{text-align:center;font-size:28px;margin:0}.detail .sub{text-align:center;color:#aaa;margin:8px 0 34px}.detail .info{background:var(--panel);border-radius:24px;padding:20px;margin-top:12px;color:#ddd}.detail .info small{display:block;color:#aaa;margin-bottom:7px}.detail-actions{display:flex;justify-content:center;gap:14px;margin:22px}.detail-actions button{border:0;border-radius:20px;background:#202024;padding:13px 18px;color:white}
+.toast{position:fixed;z-index:20;bottom:82px;left:50%;transform:translateX(-50%);background:#333;color:#fff;border-radius:30px;padding:11px 18px;font-size:14px;opacity:0;transition:.2s;pointer-events:none;white-space:nowrap}.toast.show{opacity:1}
+.hidden{display:none!important}
+@media(max-width:420px){.hero{height:255px}.hero h1{font-size:48px}.hero p{font-size:23px}.favorite{min-height:90px;font-size:20px;gap:20px;padding:12px 25px}.star{width:62px;height:62px}.person{font-size:19px;gap:18px;min-height:82px}.avatar{width:63px;height:63px}.person.small{font-size:18px}.person.small .avatar{width:58px;height:58px}.contact-card{padding:7px 15px}.group-card{padding:5px 15px}}
+
+.club-clock{display:inline-flex;align-items:center;gap:8px}.club-logo{width:19px;height:25px;object-fit:contain}.logo-fallback{font-size:11px;font-weight:900;color:#f4d38a;border:1px solid #f4d38a;border-radius:50%;padding:3px}.custom-sys{gap:9px;color:#e8e9ef}.custom-sys span:first-child{font-size:18px;color:#a7dcbf}.custom-sys span:nth-child(2){font-size:15px}.custom-sys span:nth-child(3){font-size:13px;letter-spacing:-2px}.battery{font-size:11px;border:1.5px solid #e6e6e6;border-radius:5px;padding:3px 4px;line-height:1}.social-links{display:grid;gap:8px;margin:8px 0 14px}.social-links a{display:flex;align-items:center;gap:15px;padding:15px 14px;background:#343438;border-radius:17px;color:#fff;text-decoration:none;font-weight:650}.social-links a span:last-child{margin-left:auto;color:#a9a9ad}.social-icon{display:grid;place-items:center;width:32px;height:32px;border-radius:50%;background:#151518;font-size:19px}.social-hint{color:#aaa;font-size:12px}
+.avatar.madrid{background:linear-gradient(140deg,#f8e3a7,#6d83b5);color:#203a65}.avatar.esdee{background:linear-gradient(140deg,#ddd,#555);color:white}.avatar.xavier{background:linear-gradient(140deg,#cdb3ef,#57387b);color:white}
+
+/* Recent events, styled like Samsung One UI call history */
+.recent-view{display:none;padding:0 17px 26px}.recent-view.active{display:block}.content.off,.hero.off,.tools.off,.searchbox.off{display:none!important}
+.recent-heading{display:flex;align-items:center;justify-content:space-between;padding:6px 14px 17px}.recent-heading h2{font-size:26px;margin:0;font-weight:650}.sync-button{border:0;background:#28282b;border-radius:24px;padding:11px 15px;color:#ddd;font-size:14px}
+.recent-summary{color:#96969d;font-size:13px;margin:0 15px 22px;line-height:1.6}.recent-date{color:#aaa;font-weight:650;font-size:15px;margin:24px 0 12px 16px}.event-row{display:flex;gap:15px;align-items:center;padding:15px 11px;border-radius:24px;cursor:pointer;text-decoration:none;color:#fff;min-height:90px}.event-row:active{background:#27272a}.event-icon{width:52px;height:52px;flex:none;border-radius:50%;display:grid;place-items:center;background:#343439;color:#b6dbff;font-size:24px}.event-icon.upcoming{background:#263b35;color:#9be3bb}.event-meta{min-width:0;flex:1}.event-title{font-size:17px;font-weight:600;line-height:1.35;overflow-wrap:anywhere}.event-sub{color:#99999f;font-size:13px;margin-top:6px;line-height:1.4}.event-end{color:#999;font-size:18px}.event-chip{display:inline-block;background:#293e33;color:#a4e4b8;border-radius:15px;padding:3px 9px;font-size:11px;margin-top:7px}.event-empty{color:#aaa;text-align:center;padding:35px 15px}.recent-source{display:block;text-align:center;color:#a7c9ff;font-size:13px;margin:22px 0 10px}.recent-warning{color:#aaa;font-size:12px;padding:0 16px 12px;line-height:1.6}
+
+.extra-avatar{background:linear-gradient(135deg,#9a8bc6,#393c6c)!important;color:#fff!important;font-size:17px!important;font-weight:700!important}
+.okashi-toggle{color:var(--text)}.okashi-members{margin:0 0 6px 34px;padding:0 0 0 14px;border-left:2px solid #4d4d58}.okashi-members[hidden]{display:none}.okashi-members .person{min-height:75px;font-size:18px}.okashi-members .avatar{width:49px!important;height:49px!important;font-size:14px!important}.okashi-toggle .external{font-size:25px}
+</style>
+<style>
+.sup-logo{display:inline-flex;align-items:center;justify-content:center;height:25px;min-width:49px;padding:1px 7px;border-radius:7px;background:linear-gradient(130deg,#f5f5f8,#b7bac5);color:#101115;font-size:15px;font-weight:950;letter-spacing:-.8px;box-shadow:0 1px 5px #fff4}
+.custom-sys{display:inline-flex;align-items:center;gap:9px}.custom-sys>span:nth-child(2){color:#ff6f95;font-size:20px;letter-spacing:0}.galaxy-battery{position:relative;display:inline-flex;align-items:center;justify-content:center;height:18px;min-width:39px;border:1.5px solid #eee;border-radius:5px;margin-right:3px;padding:0 3px;font-size:10px;font-weight:750;overflow:visible}.galaxy-battery:after{content:'';position:absolute;right:-4px;top:5px;width:2px;height:6px;background:#ddd;border-radius:0 2px 2px 0}.battery-fill{position:absolute;inset:2px;background:#b6edbd;border-radius:2px}.battery-percent{position:relative;color:#142116}.avatar.uzi{background:linear-gradient(135deg,#dfb7f2,#7d58b2 60%,#392455);color:#fff}
+
+/* Galaxy-style keypad with an in-page video above the number grid */
+.keypad-view{display:none;min-height:calc(100dvh - 160px);padding:14px 22px 24px;flex-direction:column;align-items:stretch}
+.keypad-view.active{display:flex}
+.keypad-top{display:flex;justify-content:flex-end;gap:24px;align-items:center;min-height:56px}
+.keypad-top button{border:0;background:none;font-size:29px;color:#eee}
+.keypad-space{flex:1;min-height:26px}
+.keypad-player{width:100%;max-width:460px;align-self:center;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#19191b;box-shadow:0 6px 28px #0008;margin:12px 0 24px}
+.keypad-player iframe{display:block;width:100%;height:100%;border:0}
+.keypad-greeting{width:100%;max-width:460px;align-self:center;display:flex;align-items:center;justify-content:center;min-height:150px;margin:12px 0 24px;font-size:clamp(30px,7vw,48px);font-weight:750;letter-spacing:-1.5px;color:#f4f4f6;text-align:center}
+.keypad-numbers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 12px;max-width:460px;width:100%;margin:0 auto}
+.keypad-digit{border:0;background:none;color:#f6f6f7;min-height:78px;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:24px}
+.keypad-digit:active{background:#29292d}
+.keypad-digit .num{font-size:49px;font-weight:350;line-height:1.05}
+.keypad-digit .letters{font-size:13px;color:#9d9da3;letter-spacing:.5px;min-height:18px;margin-top:4px}
+.keypad-call{display:flex;justify-content:center;padding:16px 0 4px}
+.keypad-call button{width:67px;height:67px;border:0;border-radius:50%;background:#0ca865;color:white;font-size:32px}
+.keypad-view.active~.bottom-wrap .bottom{width:68%}
+@media(max-width:420px){.keypad-view{padding:5px 15px 20px}.keypad-space{min-height:10px}.keypad-greeting{min-height:110px;margin:5px 0 15px}.keypad-digit{min-height:67px}.keypad-digit .num{font-size:43px}.keypad-call{padding:10px 0 2px}}
+@media(min-height:850px){.keypad-space{min-height:35px}.keypad-digit{min-height:85px}}
+</style>
+<style>
+/* v17: fixed Samsung-style status + five-tab navigation */
+html,body{height:100%;overflow:hidden}
+body{overscroll-behavior:none}
+.phone{height:100dvh;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding-top:51px;padding-bottom:104px;scrollbar-width:thin;scrollbar-color:#414147 transparent}
+.status{position:fixed;top:0;left:50%;transform:translateX(-50%);width:min(100%,620px);height:51px;padding:8px 20px;background:rgba(0,0,0,.96);z-index:45;border-bottom:1px solid #18181c;backdrop-filter:blur(16px)}
+.sup-logo{height:auto;min-width:0;padding:0;border:0;border-radius:0;background:none;color:#f7f7f8;box-shadow:none;letter-spacing:1.1px;font-size:17px;font-weight:900}
+.club-clock{gap:12px}
+.bottom-wrap{position:fixed;z-index:45;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,620px);height:calc(77px + env(safe-area-inset-bottom));padding:5px 7px calc(7px + env(safe-area-inset-bottom));background:#0d0d10;border-top:1px solid #2c2c31;box-shadow:0 -10px 25px #0008}
+.bottom{width:100%!important;max-width:none!important;height:100%!important;display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr));gap:0!important;padding:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+.bottom button{min-width:0!important;width:100%!important;min-height:0!important;display:flex!important;flex-direction:column;justify-content:center;align-items:center;gap:4px!important;padding:5px 1px!important;border-radius:15px!important;font-size:clamp(9px,2.4vw,12px)!important;white-space:nowrap;color:#96969d!important}
+.bottom button b{font-size:23px!important;line-height:1.1!important;font-weight:500!important}
+.bottom button.active{color:#b4ebd0!important;background:#1e332b!important}
+.bottom button span{font-size:inherit!important;line-height:1.1!important}
+.new-panel{display:none;padding:27px 19px 34px;min-height:calc(100dvh - 155px)}
+.new-panel.active{display:block}
+.panel-kicker{color:#9fcebb;letter-spacing:2.6px;font-size:11px;font-weight:750;margin:6px 8px 10px}
+.new-panel h2{font-size:clamp(32px,8vw,48px);letter-spacing:-1.7px;margin:0 8px 13px;font-weight:760}
+.panel-description{color:#aaaab0;margin:0 8px 32px;font-size:15px}
+.feature-card{display:flex;gap:20px;align-items:center;padding:18px;border-radius:30px;background:#1b1b20;text-decoration:none;color:#fff}
+.feature-art{display:grid;place-items:center;width:92px;height:92px;flex:none;background:linear-gradient(135deg,#315c4b,#9cd5b3);border-radius:23px;color:#0a2219;font-size:49px}
+.feature-card strong,.identity-card strong{display:block;font-size:22px}
+.feature-card small,.identity-card small{display:block;color:#aaaab0;font-size:12px;margin-top:9px}
+.panel-label{margin:32px 12px 14px;color:#aaaab0;font-size:14px;font-weight:700}
+.genre-grid{display:grid;gap:12px}
+.genre-grid>div{border-radius:22px;padding:23px 22px;background:#1a1a1e;font-size:19px;font-weight:750}
+.genre-grid small{display:block;font-size:11px;letter-spacing:.6px;color:#a4a4aa;margin-top:6px;font-weight:500}
+.identity-card{display:flex;gap:20px;align-items:center;background:#1b1b20;border-radius:30px;padding:22px 18px;margin-top:28px}
+.identity-avatar{width:82px;height:82px;display:grid;place-items:center;flex:none;border-radius:50%;background:linear-gradient(135deg,#d6d8df,#5c6572);color:#12131a;font-size:24px;font-weight:900}
+.profile-links{display:grid;gap:10px}
+.profile-links a{display:flex;align-items:center;gap:15px;padding:19px;background:#1b1b20;border-radius:20px;color:#f7f7f8;text-decoration:none;font-size:15px}
+.profile-links a>span{font-size:25px;width:30px;text-align:center}
+.profile-links em{margin-left:auto;font-style:normal;color:#a4d3bd}
+.about-card{background:#1b1b20;border-radius:30px;padding:27px 20px;text-align:center;margin-top:27px}
+.about-emblem{width:76px;height:76px;display:grid;place-items:center;border-radius:22px;margin:0 auto 14px;background:#b9e6ce;color:#0e2418;font-weight:900;font-size:38px}
+.about-card h3{font-size:28px;margin:0 0 12px}
+.about-card p{color:#b3b3b9;font-size:14px;line-height:1.8;margin:0}
+.about-list{display:grid;gap:10px}
+.about-list>div{display:flex;gap:13px;align-items:center;background:#1b1b20;padding:17px;border-radius:19px}
+.about-list span{font-size:23px}.about-list strong{font-size:13px}.about-list small{margin-left:auto;color:#a5a5ac;font-size:11px}
+.footnote{color:#686870;text-align:center;font-size:11px;margin-top:35px}
+.hero{height:205px}.hero h1{font-size:45px}.hero p{font-size:18px}
+.favorite{min-height:85px;font-size:17px}.star{width:56px;height:56px}
+.person{font-size:19px}.person.small{font-size:18px}
+.detail{z-index:60}
+@media(max-width:380px){.bottom button{font-size:9px!important}.bottom button b{font-size:20px!important}.status{padding-inline:14px}.new-panel{padding-inline:12px}}
+</style><style>
+.playlist-stack{display:grid;gap:14px;margin-top:24px}
+.playlist-item{display:flex;align-items:center;gap:16px;text-decoration:none;color:#f7f7fa;background:#1b1b20;border:1px solid #2a2a30;padding:13px;border-radius:24px;transition:background .2s}
+.playlist-item:hover{background:#25252b}
+.playlist-cover{width:90px;height:90px;flex:none;border-radius:18px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.playlist-cover>span{position:absolute;left:12px;top:10px;font-size:12px;font-weight:800;opacity:.8}
+.playlist-cover>b{font-size:45px;font-weight:500}
+.cover-one{background:linear-gradient(135deg,#4f7c6d,#162b26);color:#c8f9e3}
+.cover-two{background:linear-gradient(135deg,#a879bd,#39254b);color:#f7ddff}
+.cover-three{background:linear-gradient(135deg,#b77d4e,#442820);color:#ffe0b5}
+.playlist-copy{display:flex;flex-direction:column;gap:7px;min-width:0}
+.playlist-copy small{font-size:10px;color:#9d9da6;letter-spacing:1.3px}
+.playlist-copy strong{font-size:21px}
+.playlist-copy>span{font-size:12px;color:#b4e7cb}
+.playlist-footer{text-align:center;margin-top:29px;color:#888893;font-size:11px;letter-spacing:1.4px}
+.intro-card{padding:22px 19px 26px}
+.intro-topline{font-size:11px;font-weight:800;letter-spacing:2.1px;color:#9cd5b6;text-align:left;display:flex;justify-content:space-between}
+.hachi-greeting{display:block;width:min(100%,290px);aspect-ratio:1/1;object-fit:contain;border-radius:22px;margin:18px auto;background:#f5dfb1}
+.intro-card h3{font-size:26px;letter-spacing:-.5px}
+.intro-card p{font-size:15px;line-height:1.8;color:#e1e1e5;text-align:left}
+@media(max-width:380px){.playlist-cover{width:72px;height:72px}.playlist-copy strong{font-size:18px}}
+</style><style>
+.playlist-cover img{width:100%;height:100%;object-fit:cover;display:block}
+.kc-toggle{width:100%;text-align:left;background:transparent;border:0;color:inherit;cursor:pointer}
+.kc-members .person:not(a){cursor:default}
+</style><style>
+.opium-toggle{width:100%;text-align:left;background:transparent;border:0;color:inherit;cursor:pointer}
+.intro-language{padding:15px 0;border-top:1px solid #39393f}
+.intro-language:first-of-type{border-top:0}
+.intro-language-label{font-size:12px;letter-spacing:1.1px;color:#a4d9bd;text-align:left;font-weight:800;margin-bottom:9px}
+.intro-language p{margin:0;font-size:14px;line-height:1.85}
+</style><style>#about-view .intro-card a:has(.hachi-greeting){display:block;text-decoration:none;cursor:pointer}#about-view .intro-card a:has(.hachi-greeting):focus-visible{outline:2px solid #b4ebd0;border-radius:22px}</style><style>
+/* System appearance: follow the visitor's light/dark preference automatically. */
+:root{color-scheme:dark}
+.kubota-links{margin:0 0 9px 72px;display:grid;gap:7px}
+.kubota-links[hidden]{display:none!important}
+.kubota-links>a{display:flex;align-items:center;gap:12px;padding:13px 12px;border-radius:17px;background:var(--panel2);color:var(--text);text-decoration:none}
+.kubota-link-icon{font-size:22px;width:28px;text-align:center}
+.kubota-links strong{display:block;font-size:14px}.kubota-links small{display:block;font-size:12px;color:var(--muted);margin-top:3px}
+.kubota-links .external{margin-left:auto}
+@media(prefers-color-scheme:light){
+:root{color-scheme:light;--bg:#f7f7fa;--panel:#fff;--panel2:#eeeeF2;--text:#17171b;--muted:#64646d;--line:#dedee5;--green:#25684c;--orange:#ba5718}
+html,body,.phone{background:var(--bg)!important;color:var(--text)!important}
+.status{background:rgba(247,247,250,.97)!important;border-bottom-color:#e6e6ec!important;color:var(--text)!important}
+.sup-logo{color:var(--text)!important}
+.bottom-wrap{background:rgba(249,249,251,.98)!important;border-top-color:#dddde5!important;box-shadow:0 -5px 20px #0000000c!important}
+.bottom{background:transparent!important;box-shadow:none!important}
+.bottom button{color:#666671!important}
+.bottom button.active{color:#176c49!important;background:#d9eee3!important}
+.hero,.hero h1,.hero p,.label,.group-head,.name,.panel-kicker,.new-panel h2,.recent-heading,.recent-heading h2{color:var(--text)!important}
+.hero p,.label,.group-head{color:var(--muted)!important}
+.tool{color:var(--text)!important}
+.searchbox input{background:#fff!important;color:var(--text)!important;border:1px solid #e2e2e7!important}
+.favorite,.contact-card,.group-card,.recent-view,.keypad-view,.about-card,.identity-card,.feature-card,.genre-grid>div,.profile-links a,.about-list>div,.playlist-item,.kubota-links>a{background:var(--panel)!important;color:var(--text)!important;border-color:#e7e7ed!important}
+.person,.person.small,.person .name,.kc-toggle,.opium-toggle{color:var(--text)!important}
+.person+.person{border-top-color:#e7e7ed!important}
+.playlist-item{border:1px solid #e7e7ed!important}
+.playlist-copy strong,.playlist-copy small,.playlist-copy>span,.profile-links a,.about-card p,.intro-card p,.about-list strong,.feature-card strong,.identity-card strong{color:var(--text)!important}
+.panel-description,.panel-label,.playlist-footer,.identity-card small,.feature-card small,.about-list small,.playlist-copy small,.footnote{color:var(--muted)!important}
+.intro-language{border-top-color:#e4e4e9!important}
+.intro-language-label{color:#23684b!important}
+.detail{background:var(--bg)!important;color:var(--text)!important}
+.detail button{color:var(--text)!important}
+}
+</style><style>
+/* v24: readable Recent Events (second tab) in system light mode */
+@media (prefers-color-scheme: light) {
+  #recent-view, #recent-view .recent-heading, #recent-view .recent-heading h2,
+  #recent-view .event-row, #recent-view .event-title,
+  #recent-view .event-meta { color: #17171b !important; }
+  #recent-view .recent-summary, #recent-view .recent-date,
+  #recent-view .event-sub, #recent-view .event-end,
+  #recent-view .recent-warning, #recent-view .event-empty { color: #575761 !important; }
+  #recent-view .event-row { background: #fff !important; border: 1px solid #e5e5eb !important; margin-bottom: 9px; }
+  #recent-view .event-icon { background: #e9eef7 !important; color: #335c8e !important; }
+  #recent-view .event-chip { background: #e2f3e8 !important; color: #216444 !important; }
+  #recent-view .sync-button { color: #205f46 !important; background: #e3f1e9 !important; border-color: #cce3d5 !important; }
+  #recent-view .recent-source { color: #225fa5 !important; }
+}
+</style></head>
+<body>
+<div class="phone">
+<div class="status"><span class="club-clock" id="clock"><span aria-label="SUP" class="sup-logo">SUP</span><span id="time">5:02</span></span><span aria-label="축구, 하트, 갤럭시 배터리" class="sys custom-sys"><span title="축구">⚽</span><span title="하트">♥</span><span class="galaxy-battery" title="갤럭시 배터리 100%"><span class="battery-fill"></span><span class="battery-percent">100%</span></span></span></div>
+<header class="hero"><h1>Oshi List</h1><p id="count">My Favorite People</p></header>
+<div class="tools">
+<button aria-label="追加" class="tool" id="add">＋</button>
+<button aria-label="Search" class="tool" id="search">⌕</button>
+<button aria-label="その他" class="tool more" id="more">⋮</button>
+</div>
+<div class="searchbox" id="searchbox"><input autocomplete="off" id="query" placeholder="Search favorites"/></div>
+<main class="content" id="main">
+<button class="favorite" id="favorite"><span class="star">☆</span><span>Add to Favorites</span></button>
+<div class="label">My Profile</div>
+<div class="contact-card">
+<a class="person profile" data-name="+82 sup" data-note="나의 개인 프로필" data-sub="내 프로필" href="#profile">
+<span class="avatar photo profilepic">82</span><span class="name">+82 sup</span><span class="external">↗</span>
+</a>
+</div>
+<div class="label">Groups</div>
+<div class="group-head">Love Live! Nijigasaki</div>
+<div class="group-card">
+<button aria-controls="kubota-links" aria-expanded="false" class="person small" data-name="久保田未夢" data-note="声優・i☆Ris。공식 X 계정으로 이동합니다." data-sub="Love Live! Nijigasaki · X" id="kubota-toggle" type="button">
+<span class="avatar photo kubota">久</span><span class="name">久保田未夢</span><span class="external">⌄</span>
+</button><div class="kubota-links" hidden="" id="kubota-links">
+<a href="https://x.com/iRis_k_miyu" rel="noopener noreferrer" target="_blank"><span class="kubota-link-icon">𝕏</span><span><strong>久保田未夢</strong><small>@iRis_k_miyu</small></span><span class="external">↗</span></a>
+<a href="https://x.com/iris_official_" rel="noopener noreferrer" target="_blank"><span class="kubota-link-icon">𝕏</span><span><strong>i☆Ris Official</strong><small>@iris_official_</small></span><span class="external">↗</span></a>
+</div>
+<a class="person small" data-name="朝香果林" data-note="아사카 카린은 가상 캐릭터라 개인 SNS가 없습니다. Love Live! 시리즈 공식 X로 연결됩니다." data-sub="Love Live! Nijigasaki · X" href="https://x.com/LoveLive_staff" rel="noopener noreferrer" target="_blank">
+<span class="avatar photo karin">果</span><span class="name">朝香果林</span><span class="external">↗</span>
+</a>
+</div>
+<div class="group-head">Love Live! Hasunosora</div><div class="group-card"><a class="person small" data-name="月音こな" data-sub="성우 · X" href="https://x.com/KonaTsukine" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">月</span><span class="name">月音こな</span><span class="external">↗</span></a><a class="person small" data-name="藤島慈" data-sub="하스노소라 공식 사이트" href="https://www.lovelive-anime.jp/hasunosora/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">慈</span><span class="name">藤島慈</span><span class="external">↗</span></a></div>
+<div class="group-head">Real Madrid</div>
+<div class="group-card">
+<a class="person small" data-name="Jude Bellingham" data-note="Jude Bellingham 공식/대표 Instagram 주소" data-sub="Real Madrid · Instagram" href="https://www.instagram.com/judebellingham/" rel="noopener noreferrer" target="_blank">
+<span class="avatar photo jude">JB</span><span class="name">Jude Bellingham</span><span class="external">↗</span>
+</a>
+<a class="person small" data-name="Marc Cucurella" data-note="Marc Cucurella Instagram" data-sub="Football · Instagram" href="https://www.instagram.com/marccucurella/" rel="noopener noreferrer" target="_blank">
+<span class="avatar photo cucu">MC</span><span class="name">Marc Cucurella</span><span class="external">↗</span>
+</a>
+<a class="person small" data-name="Real Madrid" data-sub="Official Instagram" href="https://www.instagram.com/realmadrid/" rel="noopener noreferrer" target="_blank"><span class="avatar photo madrid">RM</span><span class="name">Real Madrid</span><span class="external">↗</span></a>
+<a class="person small" data-name="Roberto Carlos" data-sub="Real Madrid legend · Instagram" href="https://www.instagram.com/oficialrc3/" rel="noopener noreferrer" target="_blank"><span class="avatar photo madrid">RC</span><span class="name">Roberto Carlos</span><span class="external">↗</span></a>
+<a class="person small" data-name="Zinedine Zidane" data-sub="Real Madrid legend · Instagram" href="https://www.instagram.com/zidane/" rel="noopener noreferrer" target="_blank"><span class="avatar photo madrid">ZZ</span><span class="name">Zinedine Zidane</span><span class="external">↗</span></a>
+<a class="person small" data-name="Toni Kroos" data-sub="Real Madrid legend · Instagram" href="https://www.instagram.com/toni.kr8s/" rel="noopener noreferrer" target="_blank"><span class="avatar photo madrid">TK</span><span class="name">Toni Kroos</span><span class="external">↗</span></a>
+<a class="person small" data-name="Luka Modrić" data-sub="Real Madrid legend · Instagram" href="https://www.instagram.com/lukamodric10/" rel="noopener noreferrer" target="_blank"><span class="avatar photo madrid">LM</span><span class="name">Luka Modrić</span><span class="external">↗</span></a>
+<a aria-label="Cristiano Ronaldo Instagram" class="person small" data-name="🐐" data-sub="Cristiano Ronaldo · Instagram" href="https://www.instagram.com/cristiano/" rel="noopener noreferrer" target="_blank"><span class="avatar photo madrid">🐐</span><span class="name">🐐</span><span class="external">↗</span></a></div>
+<div class="group-head">CURRENT FAVORITES</div>
+<div class="group-card">
+<a class="person small" data-name="ハチワレ" data-note="요청한 하치와레 YouTube 영상으로 이동합니다." data-sub="ちいかわ · YouTube" href="https://www.youtube.com/watch?v=mnO0uTHjQCQ&amp;list=RDmnO0uTHjQCQ&amp;start_radio=1" rel="noopener noreferrer" target="_blank">
+<span class="avatar photo hachi">ハ</span><span class="name">ハチワレ</span><span class="external">↗</span>
+</a>
+<a class="person small" data-name="ちいかわ" data-note="요청한 치이카와 YouTube 영상으로 이동합니다." data-sub="ちいかわ · YouTube" href="https://www.youtube.com/watch?v=3AIakaEBGlQ" rel="noopener noreferrer" target="_blank">
+<span class="avatar photo chiikawa">ち</span><span class="name">ちいかわ</span><span class="external">↗</span>
+</a>
+</div>
+<div class="group-head">Girls Band Cry</div><div class="group-card"><a class="person small" data-name="河原木桃香" data-sub="걸즈 밴드 크라이 공식 사이트" href="https://girls-band-cry.com/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">桃</span><span class="name">河原木桃香</span><span class="external">↗</span></a><a class="person small" data-name="夕莉 (Yuri)" data-sub="성우 · X" href="https://x.com/yuri_togetoge" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">夕</span><span class="name">夕莉 (Yuri)</span><span class="external">↗</span></a></div>
+<div class="group-head">BanG Dream!</div><div class="group-card"><a class="person small" data-name="Ave Mujica" data-sub="공식 애니메이션" href="https://anime.bang-dream.com/avemujica/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">AM</span><span class="name">Ave Mujica</span><span class="external">↗</span></a><a class="person small" data-name="MyGO!!!!!" data-sub="공식 애니메이션" href="https://anime.bang-dream.com/mygo/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">MG</span><span class="name">MyGO!!!!!</span><span class="external">↗</span></a></div>
+<div class="group-head">FOREIGN HIP-HOP</div>
+<div class="group-card">
+<a class="person small" data-name="Travis Scott" data-note="Travis Scott Instagram" data-sub="Foreign Hip-Hop · Instagram" href="https://www.instagram.com/travisscott/" rel="noopener noreferrer" target="_blank">
+<span class="avatar photo travis">TS</span><span class="name">Travis Scott</span><span class="external">↗</span>
+</a>
+<button aria-controls="opium-members" aria-expanded="false" class="person small opium-toggle" data-name="Opium Playboi Carti Ken Carson Destroy Lonely HXG Fi1thy" id="opium-toggle" type="button">
+<span class="avatar photo extra-avatar">00</span><span class="name">Opium</span><span class="external" id="opium-arrow">⌄</span></button>
+<div class="okashi-members opium-members" hidden="" id="opium-members">
+<a class="person small" data-name="Playboi Carti" data-sub="Instagram" href="https://www.instagram.com/playboicarti/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">PC</span><span class="name">Playboi Carti</span><span class="external">↗</span></a>
+<a class="person small" data-name="Ken Carson" data-sub="Instagram" href="https://www.instagram.com/kencarson/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">KC</span><span class="name">Ken Carson</span><span class="external">↗</span></a>
+<a class="person small" data-name="Destroy Lonely" data-sub="Instagram" href="https://www.instagram.com/destroylonely/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">DL</span><span class="name">Destroy Lonely</span><span class="external">↗</span></a>
+<a class="person small" data-name="HXG" data-sub="Instagram" href="https://www.instagram.com/homixide55555/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">HX</span><span class="name">HXG</span><span class="external">↗</span></a>
+<a class="person small" data-name="Fi1thy" data-sub="Instagram" href="https://www.instagram.com/wakeupf1lthy/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">F1</span><span class="name">Fi1thy</span><span class="external">↗</span></a>
+</div>
+<a class="person small" data-name="Central Cee" data-note="Central Cee Instagram" data-sub="Foreign Hip-Hop · Instagram" href="https://www.instagram.com/centralcee/" rel="noopener noreferrer" target="_blank">
+<span class="avatar photo central">CC</span><span class="name">Central Cee</span><span class="external">↗</span>
+</a>
+<a class="person small" data-name="EsDeeKid" data-sub="Foreign Hip-Hop · Instagram" href="https://www.instagram.com/esdeekid/" rel="noopener noreferrer" target="_blank"><span class="avatar photo esdee">E</span><span class="name">EsDeeKid</span><span class="external">↗</span></a>
+<a class="person small" data-name="xaviersobased" data-sub="Foreign Hip-Hop · Instagram" href="https://www.instagram.com/xaviersobased/" rel="noopener noreferrer" target="_blank"><span class="avatar photo xavier">X</span><span class="name">xaviersobased</span><span class="external">↗</span></a>
+<a class="person small" data-name="Lil Uzi Vert" data-note="Lil Uzi Vert Instagram" data-sub="Foreign Hip-Hop · Instagram" href="https://www.instagram.com/liluzivert/" rel="noopener noreferrer" target="_blank"><span class="avatar photo uzi">UZ</span><span class="name">Lil Uzi Vert</span><span class="external">↗</span></a>
+</div>
+<div class="group-head">KOREAN HIP-HOP</div><div class="group-card"><a class="person small" data-name="E SENS" data-sub="Instagram" href="https://www.instagram.com/esensofficial/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">ES</span><span class="name">E SENS</span><span class="external">↗</span></a><a class="person small" data-name="Beenzino" data-sub="Instagram" href="https://www.instagram.com/realisshoman/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">BZ</span><span class="name">Beenzino</span><span class="external">↗</span></a><button aria-controls="okashi-members" aria-expanded="false" class="person small okashi-toggle" id="okashi-toggle" type="button"><span class="avatar photo extra-avatar">OK</span><span class="name">OKASHII (OKASHII)</span><span class="external" id="okashi-arrow">⌄</span></button><div class="okashi-members" hidden="" id="okashi-members"><a class="person small" data-name="Raf Sandou" data-sub="Instagram" href="https://www.instagram.com/okarsandou/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">RS</span><span class="name">Raf Sandou</span><span class="external">↗</span></a><a class="person small" data-name="MASON HOME" data-sub="Instagram" href="https://www.instagram.com/okamasonhome/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">MH</span><span class="name">MASON HOME</span><span class="external">↗</span></a><a class="person small" data-name="JEFFREY WHITE" data-sub="Instagram" href="https://www.instagram.com/okajef/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">JW</span><span class="name">JEFFREY WHITE</span><span class="external">↗</span></a></div><button aria-controls="kc-members" aria-expanded="false" class="person small kc-toggle" data-name="KC Kim Haon NOWIMYOUNG JMIN Sik-K" id="kc-toggle" type="button">
+<span class="avatar photo extra-avatar">KC</span><span class="name">KC</span><span class="external" id="kc-arrow">⌄</span></button>
+<div class="okashi-members kc-members" hidden="" id="kc-members">
+<a class="person small" data-name="HAON" data-sub="Instagram" href="https://www.instagram.com/noahmik/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">HA</span><span class="name">HAON</span><span class="external">↗</span></a>
+<a class="person small" data-name="NOWIMYOUNG" data-sub="Instagram" href="https://www.instagram.com/now_im_young/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">NY</span><span class="name">NOWIMYOUNG</span><span class="external">↗</span></a>
+<a class="person small" data-name="JMIN" data-sub="Instagram" href="https://www.instagram.com/jmindontleave/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">JM</span><span class="name">JMIN</span><span class="external">↗</span></a>
+<a class="person small" data-name="Sik-K" data-sub="Instagram" href="https://www.instagram.com/younghotyellow94/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">SK</span><span class="name">Sik-K</span><span class="external">↗</span></a>
+</div><a class="person small" data-name="BewhY" data-sub="Instagram" href="https://www.instagram.com/bewhy.meshasoulja/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">BW</span><span class="name">BewhY</span><span class="external">↗</span></a></div>
+<div class="group-head">ROCK BAND</div><div class="group-card"><a class="person small" data-name="Muse" data-sub="Instagram" href="https://www.instagram.com/museband/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">M</span><span class="name">Muse</span><span class="external">↗</span></a><a class="person small" data-name="Radiohead" data-sub="Instagram" href="https://www.instagram.com/radiohead/" rel="noopener noreferrer" target="_blank"><span class="avatar photo extra-avatar">R</span><span class="name">Radiohead</span><span class="external">↗</span></a></div>
+</main>
+<section aria-label="최근 이벤트 기록" class="recent-view" id="recent-view">
+<div class="recent-heading"><h2>Recent Events</h2><button class="sync-button" id="refresh-events">⟳ Refresh</button></div>
+<p class="recent-summary" id="event-summary">Eventernote · Past 3 months / Next 5 months</p>
+<div id="event-list"></div>
+<a class="recent-source" href="https://www.eventernote.com/users/htmlkarin/events" rel="noopener noreferrer" target="_blank">View on Eventernote ↗</a>
+<p class="recent-warning" id="event-status">Showing saved events. 실시간 반영은 동봉된 서버를 실행해야 합니다.</p>
+</section>
+<section aria-label="Keypad" class="keypad-view" id="keypad-view">
+<div class="keypad-top"><button aria-label="Search" id="keypad-search" type="button">⌕</button><button aria-label="More" id="keypad-more" type="button">⋮</button></div>
+<div class="keypad-space"></div>
+<div aria-label="인사말" class="keypad-greeting">こんにちは、みんな！</div>
+<div aria-label="Phone Keypad" class="keypad-numbers">
+<button class="keypad-digit" data-digit="1"><span class="num">1</span><span class="letters"> </span></button>
+<button class="keypad-digit" data-digit="2"><span class="num">2</span><span class="letters">ABC</span></button>
+<button class="keypad-digit" data-digit="3"><span class="num">3</span><span class="letters">DEF</span></button>
+<button class="keypad-digit" data-digit="4"><span class="num">4</span><span class="letters">GHI</span></button>
+<button class="keypad-digit" data-digit="5"><span class="num">5</span><span class="letters">JKL</span></button>
+<button class="keypad-digit" data-digit="6"><span class="num">6</span><span class="letters">MNO</span></button>
+<button class="keypad-digit" data-digit="7"><span class="num">7</span><span class="letters">PQRS</span></button>
+<button class="keypad-digit" data-digit="8"><span class="num">8</span><span class="letters">TUV</span></button>
+<button class="keypad-digit" data-digit="9"><span class="num">9</span><span class="letters">WXYZ</span></button>
+<button class="keypad-digit" data-digit="*"><span class="num">＊</span><span class="letters"> </span></button>
+<button class="keypad-digit" data-digit="0"><span class="num">0</span><span class="letters">＋</span></button>
+<button class="keypad-digit" data-digit="#"><span class="num">＃</span><span class="letters"> </span></button>
+</div>
+<div class="keypad-call"><button aria-label="Play" id="keypad-call" type="button">▶</button></div>
+</section>
+<section class="new-panel" id="playlist-view">
+<div class="panel-kicker">SUP / MUSIC</div>
+<h2>Playlists</h2>
+<p class="panel-description">SOME DAMN GOOD MUSIC.</p>
+<div class="playlist-stack">
+<a class="playlist-item" href="https://open.spotify.com/playlist/3j8LZwc92LeFQu9uJ56FL7?si=RQLw-LwVRCGt9VGkyLb5Iw&amp;utm_source=copy-link" rel="noopener noreferrer" target="_blank">
+<div class="playlist-cover cover-one"><img alt="Karin Asaka from Love Live!" loading="lazy" referrerpolicy="no-referrer" src="https://llsif.gamedbs.jp/images/assets/image/unit/42204005/tx_u_rankup_navi_42204005.texb.png"/></div><div class="playlist-copy"><small>SUP COLLECTION</small><strong>Playlist 01</strong><span>Open in Spotify ↗</span></div>
+</a>
+<a class="playlist-item" href="https://open.spotify.com/playlist/1cFGw0033TvVN0TfSivRhu?si=5yXG4AQHQt2YZ7_LDVhfyg&amp;utm_source=copy-link" rel="noopener noreferrer" target="_blank">
+<div class="playlist-cover cover-two"><img alt="Purple iced drink" loading="lazy" referrerpolicy="no-referrer" src="https://images.deliveryhero.io/image/menu-import-gateway-prd/regions/AS/chains/popmeals_my/5c946185e2f809b77ceeb688f66b0d65.jpg"/></div><div class="playlist-copy"><small>SUP COLLECTION</small><strong>Playlist 02</strong><span>Open in Spotify ↗</span></div>
+</a>
+<a class="playlist-item" href="https://open.spotify.com/playlist/244zLgZORI33vzSOiIcdIE?si=wB-A7PSmQVG4pZ6l1SNQ7g&amp;utm_source=copy-link" rel="noopener noreferrer" target="_blank">
+<div class="playlist-cover cover-three"><img alt="E SENS smiling on stage" loading="lazy" referrerpolicy="no-referrer" src="https://www.chosun.com/resizer/v2/MEQXKRRGGCAZVXSCL6N3TSMEYE.jpg?auth=9bf22dc31c6c564d8c4a1c636fe5c950cc6b76b99f68220c4054b9ae19eef937&amp;width=464"/></div><div class="playlist-copy"><small>SUP COLLECTION</small><strong>Playlist 03</strong><span>Open in Spotify ↗</span></div>
+</a>
+</div>
+<p class="playlist-footer">THREE PLAYLISTS. ONE GOOD TASTE.</p>
+</section><section class="new-panel" id="profile-view">
+<div class="panel-kicker">SUP / ACCOUNT</div><h2>My Profile</h2>
+<div class="identity-card"><div class="identity-avatar">SUP</div><div><strong>+82 sup</strong><small>MY GALAXY SPACE</small></div></div>
+<div class="panel-label">Social Links</div>
+<div class="profile-links">
+<a href="https://x.com/htmlkarin" rel="noopener noreferrer" target="_blank"><span>𝕏</span> X / @htmlkarin <em>↗</em></a>
+<a href="https://www.instagram.com/18supk/" rel="noopener noreferrer" target="_blank"><span>◎</span> Instagram / @18supk <em>↗</em></a>
+<a href="https://open.spotify.com/user/31yta6b5flh7xp7jravlqdukv2q4?si=99cf12f446c54375" rel="noopener noreferrer" target="_blank"><span>♫</span> Spotify <em>↗</em></a>
+</div>
+</section><section class="new-panel" id="about-view">
+<div class="panel-kicker">SUP / INFORMATION</div><h2>About Me</h2>
+<div class="about-card intro-card">
+<div class="intro-topline">HEY, EVERYONE! <span>✦</span></div>
+<a aria-label="Watch Hachiware on YouTube" href="https://youtu.be/fI8GMe7VobM?si=-LmfRldrTpKs0Qii" rel="noopener noreferrer" target="_blank" title="Watch Hachiware on YouTube"><img alt="Hachiware waving hello" class="hachi-greeting" loading="lazy" onerror="this.style.display='none';document.getElementById('hachi-fallback').style.display='block'" src="https://media.tenor.com/mEYZk3roSUYAAAAe/hachiware-chiikawa.png"/><div aria-label="Hachiware says hello" id="hachi-fallback" style="display:none;text-align:center;padding:38px 0;font-size:64px">👋🐱</div></a>
+<div class="intro-language"><div class="intro-language-label">한국어</div><p>안녕 난 82sup이다 나는 이쁜 러브라이브 캐릭터 이쁜 일본여성성우 및 아이돌 잘생긴 축구선수 귀여운 축구선수 좋아한다 친하게 지내자 난 존나 착한새끼다 다들 방가방가</p></div><div class="intro-language"><div class="intro-language-label">日本語</div><p>やあ、俺は82supだ。かわいいラブライブ！のキャラクター、きれいな日本の女性声優やアイドルが好きだ。かっこいいサッカー選手も、かわいいサッカー選手も好き。仲良くしてくれ！俺はマジでめちゃくちゃいいやつだ。みんな、よろしく！</p></div><div class="intro-language"><div class="intro-language-label">English</div><p>Hey, I'm 82sup. I love pretty Love Live! characters, beautiful Japanese voice actresses and idols. I also love handsome and cute footballers. Let's be friends! I'm a damn nice guy. Hey, nice to meet you all!</p></div></div>
+<div class="panel-label">THINGS I LOVE</div>
+<div class="about-list">
+<div><span>⚽</span><strong>FOOTBALL</strong><small>Real Madrid</small></div>
+<div><span>♫</span><strong>MUSIC</strong><small>Hip-Hop / Rock</small></div>
+<div><span>✦</span><strong>LIVE &amp; ANIME</strong><small>Love Live! / BanG Dream!</small></div>
+</div>
+<p class="footnote">© SUP · PERSONAL WEBSITE</p>
+</section><nav class="bottom-wrap"><div class="bottom"><button aria-label="Playlist" data-tab="playlist" type="button"><b>♫</b><span>Playlist</span></button><button aria-label="Recent" data-tab="recent" type="button"><b>◷</b><span>Recent</span></button><button aria-label="My Profile" class="active" data-tab="profile" type="button"><b>♙</b><span>My Profile</span></button><button aria-label="Oshi List" data-tab="contacts" type="button"><b>♡</b><span>Oshi List</span></button><button aria-label="About Me" data-tab="about" type="button"><b>☰</b><span>About Me</span></button></div></nav>
+</div>
+<div class="detail" id="detail"><button class="close" id="close">‹　Close</button><div class="bigavatar" id="davatar">?</div><h2 id="dname">Name</h2><div class="sub" id="dsub">Group</div><div class="info"><small>SNS</small><div class="social-links"><a href="https://x.com/htmlkarin" rel="noopener noreferrer" target="_blank"><span class="social-icon">𝕏</span><span>X (Twitter)</span><span>↗</span></a><a href="https://www.instagram.com/18supk/" rel="noopener noreferrer" target="_blank"><span class="social-icon">◎</span><span>Instagram</span><span>↗</span></a><a href="https://open.spotify.com/user/31yta6b5flh7xp7jravlqdukv2q4?si=99cf12f446c54375" rel="noopener noreferrer" target="_blank"><span class="social-icon">♫</span><span>Spotify</span><span>↗</span></a></div><span class="social-hint" id="dinfo">Links open in a new tab.</span></div></div>
+<div class="toast" id="toast"></div>
+<script>
+const $=id=>document.getElementById(id);
+function showToast(s){$("toast").textContent=s;$("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),1900)}
+function updateClock(){const d=new Date();$("time").textContent=d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit",hour12:true})}
+updateClock();setInterval(updateClock,30000);
+const people=[...document.querySelectorAll(".person")];
+$('okashi-toggle').dataset.name='OKASHII OKASHII';
+$('okashi-toggle').addEventListener('click',()=>{const panel=$('okashi-members');panel.hidden=!panel.hidden;$('okashi-toggle').setAttribute('aria-expanded',String(!panel.hidden));$('okashi-arrow').textContent=panel.hidden?'⌄':'⌃'});
+$("count").textContent="Contacts "+people.filter(p=>p.tagName==="A").length+"";
+$("search").onclick=()=>{$("searchbox").classList.toggle("show");if($("searchbox").classList.contains("show"))$("query").focus();else{$("query").value="";filterPeople("")}};
+$("query").addEventListener("input",e=>filterPeople(e.target.value));
+function filterPeople(q){
+ q=q.trim().toLowerCase();
+ people.forEach(p=>p.classList.toggle("hidden",!p.dataset.name.toLowerCase().includes(q)));
+ const nested=$('okashi-members');if(nested){const memberMatch=[...nested.querySelectorAll('.person')].some(p=>!p.classList.contains('hidden'));const ok=$('okashi-toggle');ok.classList.toggle('hidden',!!q&&!ok.dataset.name?.toLowerCase().includes(q)&&!memberMatch);if(q&&memberMatch)nested.hidden=false;}
+ document.querySelectorAll(".group-head").forEach(el=>{
+   const card=el.nextElementSibling;
+   const visible=card&&[...card.querySelectorAll(".person")].some(p=>!p.classList.contains("hidden"));
+   el.classList.toggle("hidden",q!==""&&!visible);
+ });
+ document.querySelectorAll(".group-card,.contact-card").forEach(el=>{
+   const visible=[...el.querySelectorAll(".person")].some(p=>!p.classList.contains("hidden"));
+   el.classList.toggle("hidden",q!==""&&!visible);
+ });
+ document.querySelectorAll(".label").forEach(el=>el.classList.toggle("hidden",q!==""));
+ $("favorite").classList.toggle("hidden",q!=="");
+}
+people.forEach(p=>p.addEventListener("click",e=>{
+ if(p.getAttribute("href")==="#profile"){
+   e.preventDefault();
+   $("dname").textContent=p.dataset.name;
+   $("dsub").textContent=p.dataset.sub;
+   $("davatar").textContent="82";
+   $("dinfo").textContent="Links open in a new tab.";
+   $("detail").classList.add("show");
+ }
+}));
+$("close").onclick=()=>$("detail").classList.remove("show");
+$("add").onclick=()=>showToast("Add contact is coming soon.");
+$("favorite").onclick=()=>showToast("Favorites are coming soon.");
+$("more").onclick=()=>showToast("Galaxy One UI · SUP");
+
+const SNAPSHOT=[{"date": "2026-08-08", "title": "KIMCHIKURA Fes '26", "venue": "Kyung Hee University Grand Peace Hall", "time": "14:00", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2026-09-05", "title": "Miyu Kubota Fan Meeting in Seoul -1部-", "venue": "SeongAm Art Hall", "time": "13:00", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2026-09-05", "title": "Miyu Kubota Fan Meeting in Seoul -2部-", "venue": "SeongAm Art Hall", "time": "17:30", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2026-10-17", "title": "LANDING ACTION WONDER FLIGHT : FLT 002 SAGARA MAYU FAN MEETING 1部", "venue": "Yeonnam Space", "time": "13:00", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2026-11-07", "title": "ILLUSTAR WEEK Vol.1 夢限大みゅーたいぷ トークショーとサイン会 DAY 1", "venue": "", "time": "", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2026-11-14", "title": "LoveLive! Series 15th Anniversary ラブライブ！フェス Day.1", "venue": "バンテリンドーム ナゴヤ", "time": "16:30", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2026-11-15", "title": "LoveLive! Series 15th Anniversary ラブライブ！フェス Day.2", "venue": "バンテリンドーム ナゴヤ", "time": "15:30", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2026-11-21", "title": "WONDERLIVET 2026 DAY2", "venue": "KINTEX", "time": "12:00", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2027-01-23", "title": "KIMCHIKURA × ANISAMA SEOUL 2027 DAY1", "venue": "BLUE SQUARE Woori WON Banking Hall", "time": "", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2027-01-24", "title": "KIMCHIKURA × ANISAMA SEOUL 2027 DAY2", "venue": "BLUE SQUARE Woori WON Banking Hall", "time": "", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2027-05-29", "title": "Ave Mujica 8th LIVE「Discrimen Fati」DAY1", "venue": "Kアリーナ横浜", "time": "18:30", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2027-05-30", "title": "Ave Mujica 8th LIVE「Discrimen Fati」DAY2", "venue": "Kアリーナ横浜", "time": "17:30", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2027-07-25", "title": "i☆Ris Final Live Tour 2027 東京公演〖昼公演〗", "venue": "TACHIKAWA STAGE GARDEN", "time": "15:00", "url": "https://www.eventernote.com/users/htmlkarin/events"}, {"date": "2027-07-25", "title": "i☆Ris Final Live Tour 2027 東京公演〖夜公演〗", "venue": "TACHIKAWA STAGE GARDEN", "time": "19:00", "url": "https://www.eventernote.com/users/htmlkarin/events"}];
+let events=SNAPSHOT;
+const recentView=$('recent-view'), mainView=$('main');
+function localDay(d){return new Date(d.getFullYear(),d.getMonth(),d.getDate())}
+function recentRange(){const now=localDay(new Date());const start=new Date(now);start.setMonth(start.getMonth()-3);const end=new Date(now);end.setMonth(end.getMonth()+5);return {now,start,end}}
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function showEvents(){
+ const {now,start,end}=recentRange();
+ const valid=events.filter(x=>/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&localDay(new Date(x.date+'T12:00:00'))>=start&&localDay(new Date(x.date+'T12:00:00'))<=end);
+ valid.sort((a,b)=>b.date.localeCompare(a.date)||String(a.time).localeCompare(String(b.time)));
+ $('event-summary').textContent=`Eventernote · Past 3 months / Next 5 months · ${valid.length} events`;
+ let last='';$('event-list').innerHTML=valid.map(x=>{
+ const d=new Date(x.date+'T12:00:00');const dateLabel=d.toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',weekday:'long'});
+ const heading=last!==x.date?`<div class="recent-date">${esc(dateLabel)}</div>`:'';last=x.date;
+ const future=d>=now;const venue=[x.venue,x.time?`Starts ${x.time}`:''].filter(Boolean).join(' · ');
+ const safeUrl=String(x.url||'').startsWith('https://www.eventernote.com/')?x.url:'https://www.eventernote.com/users/htmlkarin/events';
+ return heading+`<a class="event-row" href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer"><span class="event-icon ${future?'upcoming':''}">${future?'↗':'↙'}</span><span class="event-meta"><div class="event-title">${esc(x.title)}</div><div class="event-sub">${esc(venue||'Eventernote イベント')}</div>${future?'<span class="event-chip">Upcoming</span>':''}</span><span class="event-end">ⓘ</span></a>`
+ }).join('')||'<div class="event-empty">No events to show.</div>';
+}
+function switchTab(tab){
+ document.querySelectorAll('.bottom button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
+ const isRecent=tab==='recent',isKeypad=tab==='keypad',isContacts=tab==='contacts';
+ recentView.classList.toggle('active',isRecent);
+ $('keypad-view').classList.toggle('active',isKeypad);
+ mainView.classList.toggle('off',!isContacts);
+ document.querySelector('.hero').classList.toggle('off',!isContacts);
+ document.querySelector('.tools').classList.toggle('off',!isContacts);
+ $('searchbox').classList.toggle('off',!isContacts);
+ if(isRecent)showEvents();
+
+}
+$('keypad-call').onclick=()=>showToast('Hello!');
+$('keypad-search').onclick=()=>showToast('Search in Oshi List.');
+$('keypad-more').onclick=()=>showToast('One UI Playlists');
+document.querySelectorAll('.keypad-digit').forEach(b=>b.onclick=()=>showToast(b.dataset.digit));
+async function refreshEvents(){
+ const btn=$('refresh-events');btn.disabled=true;btn.textContent='⟳ Checking…';
+ try{
+  const r=await fetch('/event_snapshot.json',{cache:'no-store',signal:AbortSignal.timeout(15000)});
+  if(!r.ok)throw new Error('Server error');
+  const data=await r.json();if(!Array.isArray(data))throw new Error('Invalid response');
+  events=data;showEvents();$('event-status').textContent=`Last synced: ${new Date().toLocaleString('en-US')} · Eventernote updated`;
+ }catch(e){$('event-status').textContent='Showing saved events. Check the latest GitHub Actions run if updates are missing.'}
+ finally{btn.disabled=false;btn.textContent='⟳ Refresh'}
+}
+$('refresh-events').onclick=refreshEvents;
+refreshEvents();
+document.querySelectorAll('.bottom button').forEach(b=>b.onclick=()=>{switchTab(b.dataset.tab);if(b.dataset.tab==='recent')refreshEvents()});
+
+// v17: five fixed tabs; preserve existing contacts, Eventernote and profile modal.
+switchTab = function(tab){
+ document.querySelectorAll('.bottom button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
+ const isRecent=tab==='recent', isContacts=tab==='contacts', isKeypad=false;
+ recentView.classList.toggle('active',isRecent);
+ $('keypad-view').classList.remove('active');
+ mainView.classList.toggle('off',!isContacts);
+ document.querySelector('.hero').classList.toggle('off',!isContacts);
+ document.querySelector('.tools').classList.toggle('off',!isContacts);
+ $('searchbox').classList.toggle('off',!isContacts);
+ document.querySelectorAll('.new-panel').forEach(p=>p.classList.toggle('active',p.id===tab+'-view'));
+ if(isRecent)showEvents();
+ document.querySelector('.phone').scrollTop=0;
+};
+
+(function(){
+const toggle=document.getElementById('kc-toggle'),panel=document.getElementById('kc-members');
+if(!toggle||!panel)return;
+toggle.addEventListener('click',()=>{
+ panel.hidden=!panel.hidden;
+ toggle.setAttribute('aria-expanded',String(!panel.hidden));
+ document.getElementById('kc-arrow').textContent=panel.hidden?'⌄':'⌃';
+});
+const search=document.getElementById('query');
+if(search)search.addEventListener('input',()=>{
+ const q=search.value.trim().toLowerCase();
+ const memberMatch=[...panel.querySelectorAll('[data-name]')].some(x=>x.dataset.name.toLowerCase().includes(q));
+ toggle.classList.toggle('hidden',!!q&&!toggle.dataset.name.toLowerCase().includes(q)&&!memberMatch);
+ if(q&&memberMatch)panel.hidden=false;
+});
+})();
+
+(function(){
+const toggle=document.getElementById('opium-toggle'),panel=document.getElementById('opium-members');
+if(!toggle||!panel)return;
+toggle.addEventListener('click',()=>{
+ panel.hidden=!panel.hidden;
+ toggle.setAttribute('aria-expanded',String(!panel.hidden));
+ document.getElementById('opium-arrow').textContent=panel.hidden?'⌄':'⌃';
+});
+const search=document.getElementById('query');
+if(search)search.addEventListener('input',()=>{
+ const q=search.value.trim().toLowerCase();
+ const memberMatch=[...panel.querySelectorAll('[data-name]')].some(x=>x.dataset.name.toLowerCase().includes(q));
+ toggle.classList.toggle('hidden',!!q&&!toggle.dataset.name.toLowerCase().includes(q)&&!memberMatch);
+ if(q&&memberMatch)panel.hidden=false;
+});
+})();
+</script>
+<script>document.addEventListener('DOMContentLoaded', function(){ if(typeof switchTab === 'function') switchTab('profile'); });
+(function(){
+const trigger=document.getElementById('kubota-toggle');
+const links=document.getElementById('kubota-links');
+if(!trigger||!links)return;
+trigger.addEventListener('click',()=>{
+ const open=trigger.getAttribute('aria-expanded')!=='true';
+ trigger.setAttribute('aria-expanded',String(open));
+ links.hidden=!open;
+ trigger.querySelector('.external').textContent=open?'⌃':'⌄';
+});
+})();
+</script></body>
+</html>
