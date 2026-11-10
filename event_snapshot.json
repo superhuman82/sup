@@ -1,100 +1,961 @@
 [
   {
-    "date": "2026-08-08",
-    "title": "KIMCHIKURA Fes '26",
-    "venue": "Kyung Hee University Grand Peace Hall",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
+    "date": "2027-07-25",
+    "title": "i☆Ris Final Live Tour 2027 東京公演【昼公演】",
+    "venue": "TACHIKAWA STAGE GARDEN",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/499097"
   },
   {
-    "date": "2026-09-05",
-    "title": "Miyu Kubota Fan Meeting in Seoul -1部-",
-    "venue": "SeongAm Art Hall",
-    "time": "13:00",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2026-09-05",
-    "title": "Miyu Kubota Fan Meeting in Seoul -2部-",
-    "venue": "SeongAm Art Hall",
-    "time": "17:30",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2026-10-17",
-    "title": "LANDING ACTION WONDER FLIGHT : FLT 002 SAGARA MAYU FAN MEETING 1部",
-    "venue": "연남스페이스",
-    "time": "13:00",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2026-11-07",
-    "title": "ILLUSTAR WEEK Vol.1 夢限大みゅーたいぷ トークショーとサイン会 DAY 1",
-    "venue": "",
-    "time": "",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2026-11-14",
-    "title": "LoveLive! Series 15th Anniversary ラブライブ！フェス Day.1",
-    "venue": "バンテリンドーム ナゴヤ",
-    "time": "16:30",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2026-11-15",
-    "title": "LoveLive! Series 15th Anniversary ラブライブ！フェス Day.2",
-    "venue": "バンテリンドーム ナゴヤ",
-    "time": "15:30",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2026-11-21",
-    "title": "WONDERLIVET 2026 DAY2",
-    "venue": "KINTEX",
-    "time": "12:00",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2027-01-23",
-    "title": "KIMCHIKURA × ANISAMA SEOUL 2027 DAY1",
-    "venue": "BLUE SQUARE Woori WON Banking Hall",
-    "time": "",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2027-01-24",
-    "title": "KIMCHIKURA × ANISAMA SEOUL 2027 DAY2",
-    "venue": "BLUE SQUARE Woori WON Banking Hall",
-    "time": "",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
-  },
-  {
-    "date": "2027-05-29",
-    "title": "Ave Mujica 8th LIVE「Discrimen Fati」DAY1",
-    "venue": "Kアリーナ横浜",
-    "time": "18:30",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
+    "date": "2027-07-25",
+    "title": "i☆Ris Final Live Tour 2027 東京公演【夜公演】",
+    "venue": "TACHIKAWA STAGE GARDEN",
+    "time": "19:00",
+    "url": "https://www.eventernote.com/events/499098"
   },
   {
     "date": "2027-05-30",
     "title": "Ave Mujica 8th LIVE「Discrimen Fati」DAY2",
     "venue": "Kアリーナ横浜",
     "time": "17:30",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
+    "url": "https://www.eventernote.com/events/497877"
   },
   {
-    "date": "2027-07-25",
-    "title": "i☆Ris Final Live Tour 2027 東京公演〖昼公演〗",
+    "date": "2027-05-29",
+    "title": "Ave Mujica 8th LIVE「Discrimen Fati」DAY1",
+    "venue": "Kアリーナ横浜",
+    "time": "18:30",
+    "url": "https://www.eventernote.com/events/497876"
+  },
+  {
+    "date": "2027-01-24",
+    "title": "KIMCHIKURA × ANISAMA SEOUL 2027 DAY2",
+    "venue": "BLUE SQUARE Woori WON Banking Hall",
+    "time": "",
+    "url": "https://www.eventernote.com/events/497705"
+  },
+  {
+    "date": "2027-01-23",
+    "title": "KIMCHIKURA × ANISAMA SEOUL 2027 DAY1",
+    "venue": "BLUE SQUARE Woori WON Banking Hall",
+    "time": "",
+    "url": "https://www.eventernote.com/events/497708"
+  },
+  {
+    "date": "2026-11-21",
+    "title": "WONDERLIVET 2026 DAY2",
+    "venue": "KINTEX",
+    "time": "12:00",
+    "url": "https://www.eventernote.com/events/490636"
+  },
+  {
+    "date": "2026-11-15",
+    "title": "LoveLive! Series 15th Anniversary ラブライブ！フェス Day.2",
+    "venue": "バンテリンドーム ナゴヤ(ナゴヤドーム)",
+    "time": "15:30",
+    "url": "https://www.eventernote.com/events/464372"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "LoveLive! Series 15th Anniversary ラブライブ！フェス Day.1",
+    "venue": "バンテリンドーム ナゴヤ(ナゴヤドーム)",
+    "time": "16:30",
+    "url": "https://www.eventernote.com/events/464371"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "ILLUSTAR WEEK Vol.1 夢限大みゅーたいぷ トークショーとサイン会 DAY 1",
+    "venue": "",
+    "time": "",
+    "url": "https://www.eventernote.com/events/497515"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "LANDING ACTION WONDER FLIGHT : FLT 002 SAGARA MAYU  FAN MEETING 1部",
+    "venue": "연남스페이스(延南スペース)",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/489705"
+  },
+  {
+    "date": "2026-09-05",
+    "title": "Miyu Kubota Fan Meeting in Seoul -1部-",
+    "venue": "SeongAm Art Hall",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/489258"
+  },
+  {
+    "date": "2026-09-05",
+    "title": "Miyu Kubota Fan Meeting in Seoul -2部-",
+    "venue": "SeongAm Art Hall",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/488075"
+  },
+  {
+    "date": "2026-08-08",
+    "title": "KIMCHIKURA Fes '26",
+    "venue": "Kyung Hee University Grand Peace Hall",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/480740"
+  },
+  {
+    "date": "2026-07-19",
+    "title": "i☆Ris 11th Live Tour 2026～VINTAGEイイ味出てます～ 東京 昼公演",
     "venue": "TACHIKAWA STAGE GARDEN",
-    "time": "15:00",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
+    "time": "15:05",
+    "url": "https://www.eventernote.com/events/456623"
   },
   {
-    "date": "2027-07-25",
-    "title": "i☆Ris Final Live Tour 2027 東京公演〖夜公演〗",
+    "date": "2026-07-19",
+    "title": "i☆Ris 11th Live Tour 2026～VINTAGEイイ味出てます～ 東京 夜公演",
+    "venue": "TACHIKAWA STAGE GARDEN",
+    "time": "19:05",
+    "url": "https://www.eventernote.com/events/456624"
+  },
+  {
+    "date": "2026-07-18",
+    "title": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」DAY1",
+    "venue": "ぴあアリーナMM",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/454671"
+  },
+  {
+    "date": "2026-06-14",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 8th Live! TOKIMEKI Express ＜東京公演＞ Day.2",
+    "venue": "京王アリーナTOKYO(武蔵野の森総合スポーツプラザ)メインアリーナ",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/451498"
+  },
+  {
+    "date": "2026-06-13",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 8th Live! TOKIMEKI Express ＜東京公演＞ Day.1",
+    "venue": "京王アリーナTOKYO(武蔵野の森総合スポーツプラザ)メインアリーナ",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/451497"
+  },
+  {
+    "date": "2026-06-07",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 8th Live! TOKIMEKI Express ＜大阪公演＞ Day.2",
+    "venue": "大阪城ホール",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/451496"
+  },
+  {
+    "date": "2026-06-06",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 8th Live! TOKIMEKI Express ＜大阪公演＞ Day.1",
+    "venue": "大阪城ホール",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/451495"
+  },
+  {
+    "date": "2026-05-23",
+    "title": "Say U Fan Festival vol.1",
+    "venue": "MYUNGHWA LIVE HALL",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/466976"
+  },
+  {
+    "date": "2026-05-09",
+    "title": "IDOL PALETTE Vol.67",
+    "venue": "SETi LIVE HALL",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/477834"
+  },
+  {
+    "date": "2026-05-09",
+    "title": "안녕！ W.ダブルヴィー 単独ライブ",
+    "venue": "SETi LIVE HALL",
+    "time": "20:00",
+    "url": "https://www.eventernote.com/events/477847"
+  },
+  {
+    "date": "2026-04-18",
+    "title": "TOGENASHI TOGEARI Live in SEOUL \"Rinne no Kotowari\"",
+    "venue": "YES24 LIVE HALL (旧 AX-Korea)",
+    "time": "19:30",
+    "url": "https://www.eventernote.com/events/461433"
+  },
+  {
+    "date": "2026-04-18",
+    "title": "映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章』特別上映会 1回目",
+    "venue": "MEGABOX COEX",
+    "time": "10:00",
+    "url": "https://www.eventernote.com/events/471342"
+  },
+  {
+    "date": "2026-03-14",
+    "title": "「LANDING ACTION WONDER FLIGHT : FLT 001」第1部",
+    "venue": "イルチアートホール(ILCHI ART HALL)",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/462120"
+  },
+  {
+    "date": "2026-02-22",
+    "title": "ILLUSTAR DJ CONNECT with ゆんゆん電波シンドローム",
+    "venue": "KINTEX",
+    "time": "16:20",
+    "url": "https://www.eventernote.com/events/464183"
+  },
+  {
+    "date": "2026-01-31",
+    "title": "久保田未夢 わんわんおーこく 2026誕 姫様と海路日和 1部",
+    "venue": "!_静岡県内某所",
+    "time": "11:00",
+    "url": "https://www.eventernote.com/events/456008"
+  },
+  {
+    "date": "2026-01-18",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』DAY.2",
+    "venue": "京王アリーナTOKYO(武蔵野の森総合スポーツプラザ)メインアリーナ",
+    "time": "16:00",
+    "url": "https://www.eventernote.com/events/429905"
+  },
+  {
+    "date": "2026-01-17",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 FLOWER MUSIC LIVE『Boooooom Boooooom Bee!!』DAY.1",
+    "venue": "京王アリーナTOKYO(武蔵野の森総合スポーツプラザ)メインアリーナ",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/429904"
+  },
+  {
+    "date": "2026-01-10",
+    "title": "Say U Fan vol.13 鈴原希実 FAN MEETING 第1部",
+    "venue": "Spigen Hall",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/449668"
+  },
+  {
+    "date": "2025-12-07",
+    "title": "Anime X Game Festival 2025 DAY3 BLUE STAGE 『DJ Kazu』",
+    "venue": "KINTEX",
+    "time": "16:45",
+    "url": "https://www.eventernote.com/events/448885"
+  },
+  {
+    "date": "2025-12-07",
+    "title": "Anime X Game Festival 2025 DAY3",
+    "venue": "KINTEX",
+    "time": "09:30",
+    "url": "https://www.eventernote.com/events/435492"
+  },
+  {
+    "date": "2025-12-07",
+    "title": "Anime X Game Festival 2025 DAY3 RED STAGE 『勇者刑に処す 懲罰勇者9004隊刑務記録』",
+    "venue": "KINTEX",
+    "time": "15:30",
+    "url": "https://www.eventernote.com/events/448875"
+  },
+  {
+    "date": "2025-12-06",
+    "title": "Anime X Game Festival 2025 DAY2 BLUE STAGE 『DJ Kazu』",
+    "venue": "KINTEX",
+    "time": "16:45",
+    "url": "https://www.eventernote.com/events/448884"
+  },
+  {
+    "date": "2025-12-06",
+    "title": "Anime X Game Festival 2025 DAY2",
+    "venue": "KINTEX",
+    "time": "09:30",
+    "url": "https://www.eventernote.com/events/435491"
+  },
+  {
+    "date": "2025-12-06",
+    "title": "Anime X Game Festival 2025 DAY2 RED STAGE 『ラブライブ! スーパースター!!　スペシャルトーク & ミニライブ』",
+    "venue": "KINTEX",
+    "time": "11:45",
+    "url": "https://www.eventernote.com/events/448864"
+  },
+  {
+    "date": "2025-12-06",
+    "title": "Anime X Game Festival 2025 DAY2 BLUE STAGE 『BanG Dream! 10周年記念 スペシャルトークステージ』",
+    "venue": "KINTEX",
+    "time": "14:15",
+    "url": "https://www.eventernote.com/events/448883"
+  },
+  {
+    "date": "2025-11-24",
+    "title": "映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章』FM802「802 Palette」公開収録&ミニアルバム発売記念イベント",
+    "venue": "ツイン21アトリウム",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/450104"
+  },
+  {
+    "date": "2025-11-23",
+    "title": "映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章』京都・大阪舞台挨拶 MOVIX京都 10:00の回",
+    "venue": "MOVIX京都",
+    "time": "10:00",
+    "url": "https://www.eventernote.com/events/446637"
+  },
+  {
+    "date": "2025-11-23",
+    "title": "映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章』京都・大阪舞台挨拶 MOVIX京都 12:35の回",
+    "venue": "MOVIX京都",
+    "time": "12:35",
+    "url": "https://www.eventernote.com/events/446638"
+  },
+  {
+    "date": "2025-11-23",
+    "title": "映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章』京都・大阪舞台挨拶 なんばパークスシネマ 15:25の回",
+    "venue": "なんばパークスシネマ",
+    "time": "15:25",
+    "url": "https://www.eventernote.com/events/446639"
+  },
+  {
+    "date": "2025-11-23",
+    "title": "映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章』京都・大阪舞台挨拶 なんばパークスシネマ 18:00の回",
+    "venue": "なんばパークスシネマ",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/446640"
+  },
+  {
+    "date": "2025-11-15",
+    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 2025!! Day1 2回目",
+    "venue": "WDG STUDIO HONGDAE",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/441017"
+  },
+  {
+    "date": "2025-11-01",
+    "title": "Say U Fan vol.11 前田佳織里 FAN MEETING 第1部",
+    "venue": "イルチアートホール(ILCHI ART HALL)",
+    "time": "13:30",
+    "url": "https://www.eventernote.com/events/444958"
+  },
+  {
+    "date": "2025-11-01",
+    "title": "Say U Fan vol.11 前田佳織里 FAN MEETING 第2部",
+    "venue": "イルチアートホール(ILCHI ART HALL)",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/445187"
+  },
+  {
+    "date": "2025-10-25",
+    "title": "TRAVIS SCOTT - CIRCUS MAXIMUS in Korea",
+    "venue": "高陽総合運動場(Goyang Stadium)",
+    "time": "22:00",
+    "url": "https://www.eventernote.com/events/464521"
+  },
+  {
+    "date": "2025-10-18",
+    "title": "Kona Tsukine Fan Meeting in Seoul 1部",
+    "venue": "SeongAm Art Hall",
+    "time": "13:30",
+    "url": "https://www.eventernote.com/events/441848"
+  },
+  {
+    "date": "2025-10-18",
+    "title": "Kona Tsukine Fan Meeting in Seoul 2部",
+    "venue": "SeongAm Art Hall",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/441849"
+  },
+  {
+    "date": "2025-10-12",
+    "title": "Say U Fan vol.10 ペイトン尚未 FAN MEETING 第1部",
+    "venue": "イルチアートホール(ILCHI ART HALL)",
+    "time": "13:30",
+    "url": "https://www.eventernote.com/events/442567"
+  },
+  {
+    "date": "2025-09-27",
+    "title": "AKARI KITO ASIA Fan Meeting Tour 2025 ソウル公演 1部",
+    "venue": "GABIN ART HALL",
+    "time": "13:30",
+    "url": "https://www.eventernote.com/events/428453"
+  },
+  {
+    "date": "2025-09-25",
+    "title": "MUSE in Yokohama",
+    "venue": "Kアリーナ横浜",
+    "time": "19:00",
+    "url": "https://www.eventernote.com/events/434010"
+  },
+  {
+    "date": "2025-08-17",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習～歌おう♪踊ろう♪語ろう♪～ 愛知公演 DAY.2 ＜夜公演＞",
+    "venue": "Niterra日本特殊陶業市民会館 フォレストホール(名古屋市民会館 大ホール)",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/402829"
+  },
+  {
+    "date": "2025-08-17",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習～歌おう♪踊ろう♪語ろう♪～ 愛知公演 DAY.2 ＜昼公演＞",
+    "venue": "Niterra日本特殊陶業市民会館 フォレストホール(名古屋市民会館 大ホール)",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/397471"
+  },
+  {
+    "date": "2025-08-16",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習～歌おう♪踊ろう♪語ろう♪～ 愛知公演 DAY.1",
+    "venue": "Niterra日本特殊陶業市民会館 フォレストホール(名古屋市民会館 大ホール)",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/397470"
+  },
+  {
+    "date": "2025-07-12",
+    "title": "i☆Ris 10th Live Tour 2025 ～ViVa i☆Ris～ 愛知公演",
+    "venue": "Niterra日本特殊陶業市民会館 ビレッジホール(名古屋市民会館 中ホール)",
+    "time": "17:35",
+    "url": "https://www.eventernote.com/events/399264"
+  },
+  {
+    "date": "2025-06-22",
+    "title": "「まって、ムリ！Fes 〜 二次通 from 夜な夜なプロジェクト〜」公開収録 Vol.2【2回目公演】",
+    "venue": "浜離宮朝日ホール 小ホール",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/424016"
+  },
+  {
+    "date": "2025-06-21",
+    "title": "i☆Ris 5thアルバム「ViVa i☆DOL」発売記念リリースイベント ＜東京イベント＞（2部）",
+    "venue": "アニメイト池袋本店 9F animate hall BLACK",
+    "time": "15:30",
+    "url": "https://www.eventernote.com/events/425957"
+  },
+  {
+    "date": "2025-06-21",
+    "title": "i☆Ris 5thアルバム「ViVa i☆DOL」発売記念リリースイベント ＜東京イベント＞（1部）",
+    "venue": "アニメイト池袋本店 9F animate hall BLACK",
+    "time": "11:00",
+    "url": "https://www.eventernote.com/events/421445"
+  },
+  {
+    "date": "2025-06-15",
+    "title": "i☆Ris 10th Live Tour 2025 ～ViVa i☆Ris～ 神奈川公演",
+    "venue": "関内ホール 大ホール",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/399261"
+  },
+  {
+    "date": "2025-06-14",
+    "title": "i☆Ris 5thアルバム「ViVa i☆DOL」発売記念リリースイベント ＜大阪イベント＞",
+    "venue": "もりのみやキューズモールBASE BASEパーク",
+    "time": "11:35",
+    "url": "https://www.eventernote.com/events/421444"
+  },
+  {
+    "date": "2025-04-13",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習～歌おう♪踊ろう♪語ろう♪～ 千葉公演 DAY.2 ＜夜公演＞",
+    "venue": "幕張メッセ イベントホール",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/402824"
+  },
+  {
+    "date": "2025-04-13",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習～歌おう♪踊ろう♪語ろう♪～ 千葉公演 DAY.2 ＜昼公演＞",
+    "venue": "幕張メッセ イベントホール",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/397464"
+  },
+  {
+    "date": "2025-04-12",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 LIVE＆FAN MEETING TOUR ニジガク校外学習～歌おう♪踊ろう♪語ろう♪～ 千葉公演 DAY.1",
+    "venue": "幕張メッセ イベントホール",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/397462"
+  },
+  {
+    "date": "2025-04-05",
+    "title": "《Say U Fan vol.7 伊達さゆり FAN MEETING》第2部",
+    "venue": "Spigen Hall",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/418868"
+  },
+  {
+    "date": "2025-02-23",
+    "title": "劇場版アニメ「i☆Ris the Movie - Full Energy!! -」SPECIAL EVENT ～もっと 愛 for you !～ 1部",
+    "venue": "NEW PIER HALL(ニューピアホール)",
+    "time": "13:30",
+    "url": "https://www.eventernote.com/events/399249"
+  },
+  {
+    "date": "2025-02-23",
+    "title": "劇場版アニメ「i☆Ris the Movie - Full Energy!! -」SPECIAL EVENT ～もっと 愛 for you !～ 2部",
+    "venue": "NEW PIER HALL(ニューピアホール)",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/406346"
+  },
+  {
+    "date": "2025-02-22",
+    "title": "PGⅠ第1回スピードクイーンメモリアル開催記念 SPEED:Q 2025 観覧",
+    "venue": "SIX WAKE HALL",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/419975"
+  },
+  {
+    "date": "2025-02-22",
+    "title": "久保田未夢3rd写真集『Femme Fatale』2月22日(土)早期予約者対象イベント【3冊セット回】",
+    "venue": "!_東京都内某所",
+    "time": "",
+    "url": "https://www.eventernote.com/events/399413"
+  },
+  {
+    "date": "2025-02-22",
+    "title": "久保田未夢3rd写真集『Femme Fatale』2月22日(土)早期予約者対象イベント【5冊セット回】",
+    "venue": "!_東京都内某所",
+    "time": "",
+    "url": "https://www.eventernote.com/events/399422"
+  },
+  {
+    "date": "2025-02-09",
+    "title": "KIMCHIKURA x Anisong Scramble (supported by SHIBUYA109)",
+    "venue": "KINTEX",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/412590"
+  },
+  {
+    "date": "2025-02-09",
+    "title": "PROJECT iM@S 「vα-liv」 Special Stage in ILLUSTAR",
+    "venue": "KINTEX",
+    "time": "14:30",
+    "url": "https://www.eventernote.com/events/413853"
+  },
+  {
+    "date": "2025-01-26",
+    "title": "KIMCHIKURA×ANIRAVE KIMCHIKURA VOL.12",
+    "venue": "HYUNDAI CARD UNDERSTAGE",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/406347"
+  },
+  {
+    "date": "2025-01-11",
+    "title": "Say U Fan vol.6 久保田未夢 FAN MEETING 第1部",
+    "venue": "Spigen Hall",
+    "time": "13:30",
+    "url": "https://www.eventernote.com/events/400828"
+  },
+  {
+    "date": "2025-01-11",
+    "title": "Say U Fan vol.6 久保田未夢 FAN MEETING 第2部",
+    "venue": "Spigen Hall",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/400829"
+  },
+  {
+    "date": "2024-12-15",
+    "title": "LoveLive! Series Asia Tour 2024 ～みんなで叶える物語～ ソウル公演 ＜Day.2＞",
+    "venue": "高麗大学校 化汀(ファジョン)体育館 (KOREA UNIVERSITY, HWA-JEONG TIGER DOME)",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/385051"
+  },
+  {
+    "date": "2024-12-14",
+    "title": "LoveLive! Series Asia Tour 2024 ～みんなで叶える物語～ ソウル公演 ＜Day.1＞ - お見送り会",
+    "venue": "高麗大学校 化汀(ファジョン)体育館 (KOREA UNIVERSITY, HWA-JEONG TIGER DOME)",
+    "time": "20:30",
+    "url": "https://www.eventernote.com/events/448465"
+  },
+  {
+    "date": "2024-12-14",
+    "title": "LoveLive! Series Asia Tour 2024 ～みんなで叶える物語～ ソウル公演 ＜Day.1＞",
+    "venue": "高麗大学校 化汀(ファジョン)体育館 (KOREA UNIVERSITY, HWA-JEONG TIGER DOME)",
+    "time": "19:00",
+    "url": "https://www.eventernote.com/events/385049"
+  },
+  {
+    "date": "2024-12-08",
+    "title": "Anime X Game Festival 2024 DAY2 DJ Kazu Booth DJ Performance Show 17:20",
+    "venue": "KINTEX",
+    "time": "17:20",
+    "url": "https://www.eventernote.com/events/402915"
+  },
+  {
+    "date": "2024-12-08",
+    "title": "Anime X Game Festival 2024 DAY2",
+    "venue": "KINTEX",
+    "time": "09:30",
+    "url": "https://www.eventernote.com/events/398053"
+  },
+  {
+    "date": "2024-12-07",
+    "title": "Anime X Game Festival 2024 DAY1 RED STAGE 鬼滅の刃",
+    "venue": "KINTEX",
+    "time": "14:15",
+    "url": "https://www.eventernote.com/events/399207"
+  },
+  {
+    "date": "2024-12-07",
+    "title": "Anime X Game Festival 2024 DAY1",
+    "venue": "KINTEX",
+    "time": "09:30",
+    "url": "https://www.eventernote.com/events/398052"
+  },
+  {
+    "date": "2024-11-30",
+    "title": "ASAKA LIVE in Seoul (supported by KOE)",
+    "venue": "West Bridge Live Hall",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/384118"
+  },
+  {
+    "date": "2024-11-30",
+    "title": "ASAKA LIVE in Seoul (supported by KOE) VIP限定サイン会",
+    "venue": "West Bridge Live Hall",
+    "time": "19:10",
+    "url": "https://www.eventernote.com/events/398215"
+  },
+  {
+    "date": "2024-11-16",
+    "title": "プリティーシリーズ Crossing Live 2024 昼の部",
+    "venue": "パシフィコ横浜  国立大ホール",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/389777"
+  },
+  {
+    "date": "2024-11-16",
+    "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ 3rd Live Tour TRY TRI UNITY!!! with みらくらぱーく！ ＜夜公演＞",
     "venue": "TACHIKAWA STAGE GARDEN",
     "time": "19:00",
-    "url": "https://www.eventernote.com/users/htmlkarin/events"
+    "url": "https://www.eventernote.com/events/383508"
+  },
+  {
+    "date": "2024-11-14",
+    "title": "「まって、ムリ！Fes　〜二次通 from 夜な夜なプロジェクト〜」公開収録 1回目",
+    "venue": "全電通労働会館 多目的ホール",
+    "time": "15:30",
+    "url": "https://www.eventernote.com/events/392673"
+  },
+  {
+    "date": "2024-11-14",
+    "title": "「まって、ムリ！Fes　〜二次通 from 夜な夜なプロジェクト〜」公開収録 2回目",
+    "venue": "全電通労働会館 多目的ホール",
+    "time": "18:30",
+    "url": "https://www.eventernote.com/events/392674"
+  },
+  {
+    "date": "2024-11-04",
+    "title": "i☆Ris 12th Anniversary Live -初☆アリーナMM(マジみて)-",
+    "venue": "ぴあアリーナMM",
+    "time": "18:10",
+    "url": "https://www.eventernote.com/events/383186"
+  },
+  {
+    "date": "2024-11-03",
+    "title": "鬼頭明里 5th Anniversary LIVE「All Light！」 埼玉公演 Day2",
+    "venue": "ウェスタ川越 大ホール",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/384087"
+  },
+  {
+    "date": "2024-11-02",
+    "title": "鬼頭明里 5th Anniversary LIVE「All Light！」 埼玉公演 Day1",
+    "venue": "ウェスタ川越 大ホール",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/384086"
+  },
+  {
+    "date": "2024-10-20",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 7th Live! NEW TOKIMEKI LAND DAY2",
+    "venue": "Kアリーナ横浜",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/377153"
+  },
+  {
+    "date": "2024-10-19",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 7th Live! NEW TOKIMEKI LAND DAY1",
+    "venue": "Kアリーナ横浜",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/377152"
+  },
+  {
+    "date": "2024-08-24",
+    "title": "KIMCHIKURA Fes VOL.3 with ILLUSTAR",
+    "venue": "coexartium Woori Bank Hall",
+    "time": "16:30",
+    "url": "https://www.eventernote.com/events/384084"
+  },
+  {
+    "date": "2024-08-20",
+    "title": "「こながめでたい日2024」昼の部",
+    "venue": "横浜LANDMARK HALL(横浜ランドマークホール)",
+    "time": "15:30",
+    "url": "https://www.eventernote.com/events/384298"
+  },
+  {
+    "date": "2024-07-21",
+    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul기념 스마트폰 촬영회",
+    "venue": "アニメイトKOREA main store ホンデ",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/397420"
+  },
+  {
+    "date": "2024-07-20",
+    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 2日目 2部",
+    "venue": "CTS Art Hall",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/377259"
+  },
+  {
+    "date": "2024-07-19",
+    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 1日目",
+    "venue": "CTS Art Hall",
+    "time": "20:00",
+    "url": "https://www.eventernote.com/events/371199"
+  },
+  {
+    "date": "2024-05-19",
+    "title": "【出演者追加】ラブライブ！蓮ノ空女学院スクールアイドルクラブ 2nd Live Tour 〜Blooming with ○○○〜 ＜兵庫公演＞ Day.2",
+    "venue": "ワールド記念ホール(神戸ポートアイランドホール)",
+    "time": "16:00",
+    "url": "https://www.eventernote.com/events/361900"
+  },
+  {
+    "date": "2024-05-18",
+    "title": "【出演者追加】ラブライブ！蓮ノ空女学院スクールアイドルクラブ 2nd Live Tour 〜Blooming with ○○○〜 ＜兵庫公演＞ Day.1",
+    "venue": "ワールド記念ホール(神戸ポートアイランドホール)",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/361899"
+  },
+  {
+    "date": "2024-04-06",
+    "title": "鬼頭明里ファンクラブイベント「smile giving day vol.4」昼の部",
+    "venue": "品川インターシティホール",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/368245"
+  },
+  {
+    "date": "2024-04-06",
+    "title": "鬼頭明里ファンクラブイベント「smile giving day vol.4」夜の部",
+    "venue": "品川インターシティホール",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/368246"
+  },
+  {
+    "date": "2024-03-09",
+    "title": "【出演者変更】LoveLive! Series Presents ユニット甲子園 2024 ＜Day.1＞",
+    "venue": "Kアリーナ横浜",
+    "time": "16:30",
+    "url": "https://www.eventernote.com/events/355984"
+  },
+  {
+    "date": "2024-02-17",
+    "title": "KIMCHIKURA Fes VOL.02 in ILLUSTAR  <Special Stage>",
+    "venue": "KINTEX",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/366889"
+  },
+  {
+    "date": "2024-01-21",
+    "title": "Say U Fan vol.2 harmoe FAN MEETING 第1部",
+    "venue": "イルチアートホール(ILCHI ART HALL)",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/363129"
+  },
+  {
+    "date": "2024-01-21",
+    "title": "Say U Fan vol.2 harmoe FAN MEETING 第2部",
+    "venue": "イルチアートホール(ILCHI ART HALL)",
+    "time": "16:30",
+    "url": "https://www.eventernote.com/events/363130"
+  },
+  {
+    "date": "2024-01-14",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 6th Live! I love You ⇆ You love Me ＜神奈川公演＞ DAY2",
+    "venue": "Kアリーナ横浜",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/342172"
+  },
+  {
+    "date": "2024-01-13",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 6th Live! I love You ⇆ You love Me ＜神奈川公演＞ DAY1",
+    "venue": "Kアリーナ横浜",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/342171"
+  },
+  {
+    "date": "2024-01-11",
+    "title": "渋谷クロスFM『SHIBUYA CULTURE DESIGN STUDIO』公開生放送 2024/01/11",
+    "venue": "渋谷クロスFM(Shibuya Cross-FM)",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/366210"
+  },
+  {
+    "date": "2023-12-24",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 6th Live! I love You ⇆ You love Me ＜愛知公演＞ DAY2",
+    "venue": "Aichi Sky Expo(愛知県国際展示場)",
+    "time": "16:30",
+    "url": "https://www.eventernote.com/events/342170"
+  },
+  {
+    "date": "2023-12-23",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 6th Live! I love You ⇆ You love Me ＜愛知公演＞ DAY1",
+    "venue": "Aichi Sky Expo(愛知県国際展示場)",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/342168"
+  },
+  {
+    "date": "2023-12-22",
+    "title": "TOMORI KUSUNOKI BIRTHDAY LIVE 2023『back to back』",
+    "venue": "パシフィコ横浜  国立大ホール",
+    "time": "19:00",
+    "url": "https://www.eventernote.com/events/353368"
+  },
+  {
+    "date": "2023-12-17",
+    "title": "Vket2023リアルinシブハラ 声優さんとG1レースを楽しもう！Vketリアル出張特別版",
+    "venue": "渋谷サクラステージ BLOOM GATE",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/363190"
+  },
+  {
+    "date": "2023-12-03",
+    "title": "AGF KOREA 2023 day2",
+    "venue": "KINTEX",
+    "time": "10:00",
+    "url": "https://www.eventernote.com/events/346188"
+  },
+  {
+    "date": "2023-12-02",
+    "title": "AGF KOREA 2023 day1",
+    "venue": "KINTEX",
+    "time": "10:00",
+    "url": "https://www.eventernote.com/events/346187"
+  },
+  {
+    "date": "2023-11-12",
+    "title": "Liyuu Fanmeeting in Seoul 2023 「안녕 Seoul！」1部",
+    "venue": "White Wave Art center (White Hall)",
+    "time": "14:30",
+    "url": "https://www.eventernote.com/events/357149"
+  },
+  {
+    "date": "2023-10-08",
+    "title": "Pileアジアツアー2023 韓国公演 2日目 1部",
+    "venue": "ALIVE HALL",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/349687"
+  },
+  {
+    "date": "2023-10-07",
+    "title": "Pileアジアツアー2023 韓国公演 1日目 1部",
+    "venue": "ALIVE HALL",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/349686"
+  },
+  {
+    "date": "2023-10-07",
+    "title": "Pileアジアツアー2023 韓国公演 1日目 2部",
+    "venue": "ALIVE HALL",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/352386"
+  },
+  {
+    "date": "2023-10-07",
+    "title": "KIMCHIKURA with ILLUSTAR FES",
+    "venue": "KINTEX",
+    "time": "",
+    "url": "https://www.eventernote.com/events/354020"
+  },
+  {
+    "date": "2023-09-16",
+    "title": "《Say U Fan vol.1 三森すずこ FAN MEETING》 第2部",
+    "venue": "繊維センターイベントホール",
+    "time": "16:30",
+    "url": "https://www.eventernote.com/events/351263"
+  },
+  {
+    "date": "2023-09-02",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 NEXT SKY 特別上映会 1回目",
+    "venue": "MEGABOX COEX",
+    "time": "11:00",
+    "url": "https://www.eventernote.com/events/351793"
+  },
+  {
+    "date": "2023-09-02",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 NEXT SKY 特別上映会 2回目",
+    "venue": "MEGABOX COEX",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/351794"
+  },
+  {
+    "date": "2023-05-13",
+    "title": "キムチクラ KIMCHIKURA VOL.10",
+    "venue": "CLUB G1",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/340999"
+  },
+  {
+    "date": "2023-03-19",
+    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会  UNIT LIVE! ～QU4RTZ Fluffy Magic～ DAY.2",
+    "venue": "東京ガーデンシアター",
+    "time": "16:00",
+    "url": "https://www.eventernote.com/events/315766"
+  },
+  {
+    "date": "2023-03-18",
+    "title": "『ガルパ6周年記念ファンフェスタ in 秋葉原』BanG Dream! presents Dreamer's Tunesスペシャルステージ",
+    "venue": "ベルサール秋葉原",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/332440"
+  },
+  {
+    "date": "2023-03-18",
+    "title": "『ガルパ6周年記念ファンフェスタ in 秋葉原』6周年記念みんなでガルパプレイ！ステージ",
+    "venue": "ベルサール秋葉原",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/332444"
+  },
+  {
+    "date": "2023-03-11",
+    "title": "『ワールドツアー上映「鬼滅の刃」上弦集結、そして刀鍛冶の里へ』6th ソウル 14:20回",
+    "venue": "CGV Yongsan I-Park Mall",
+    "time": "14:20",
+    "url": "https://www.eventernote.com/events/336043"
+  },
+  {
+    "date": "2023-03-11",
+    "title": "『ワールドツアー上映「鬼滅の刃」上弦集結、そして刀鍛冶の里へ』6th ソウル 13:10回",
+    "venue": "CGV Yongsan I-Park Mall",
+    "time": "13:10",
+    "url": "https://www.eventernote.com/events/327779"
+  },
+  {
+    "date": "2022-12-04",
+    "title": "プリパラ&キラッとプリ☆チャン＆ワッチャプリマジ! Winter Live 2022 夜の部",
+    "venue": "幕張メッセ イベントホール",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/320352"
+  },
+  {
+    "date": "2022-12-04",
+    "title": "AGF KOREA 2022 「バンドリ！ ガールズバンドパーティ！」ステージ",
+    "venue": "KINTEX",
+    "time": "12:45",
+    "url": "https://www.eventernote.com/events/325183"
+  },
+  {
+    "date": "2022-12-04",
+    "title": "AGF KOREA 2022 day2",
+    "venue": "KINTEX",
+    "time": "10:00",
+    "url": "https://www.eventernote.com/events/315589"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022 day1",
+    "venue": "KINTEX",
+    "time": "10:00",
+    "url": "https://www.eventernote.com/events/315588"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022 「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ステージ",
+    "venue": "KINTEX",
+    "time": "12:45",
+    "url": "https://www.eventernote.com/events/324931"
+  },
+  {
+    "date": "2022-11-05",
+    "title": "久保田未夢さんトークショー 〜久保田先生の課外授業 in 中央大学〜",
+    "venue": "中央大学 多摩キャンパス",
+    "time": "13:00",
+    "url": "https://www.eventernote.com/events/319069"
   }
 ]
