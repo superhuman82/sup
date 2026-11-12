@@ -798,18 +798,18 @@
     "url": "https://www.eventernote.com/events/346187"
   },
   {
-    "date": "2023-11-12",
-    "title": "Liyuu Fanmeeting in Seoul 2023 「안녕 Seoul！」1部",
-    "venue": "White Wave Art center (White Hall)",
-    "time": "14:30",
-    "url": "https://www.eventernote.com/events/357149"
-  },
-  {
     "date": "2023-10-08",
     "title": "Pileアジアツアー2023 韓国公演 2日目 1部",
     "venue": "ALIVE HALL",
     "time": "14:00",
     "url": "https://www.eventernote.com/events/349687"
+  },
+  {
+    "date": "2023-11-12",
+    "title": "Liyuu Fanmeeting in Seoul 2023 「안녕 Seoul！」1部",
+    "venue": "White Wave Art center (White Hall)",
+    "time": "14:30",
+    "url": "https://www.eventernote.com/events/357149"
   },
   {
     "date": "2023-10-07",
@@ -859,6 +859,13 @@
     "venue": "ベルサール秋葉原",
     "time": "15:00",
     "url": "https://www.eventernote.com/events/332440"
+  },
+  {
+    "date": "2023-03-18",
+    "title": "『ガルパ6周年記念ファンフェスタ in 秋葉原』6周年記念みんなでガルパプレイ！ステージ",
+    "venue": "ベルサール秋葉原",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/332444"
   },
   {
     "date": "2023-03-11",
@@ -911,6 +918,13 @@
   },
   {
     "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
+  },
+  {
+    "date": "2022-12-03",
     "title": "AGF KOREA 2022 「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ステージ",
     "venue": "KINTEX",
     "time": "12:45",
@@ -922,12 +936,5 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
-  },
-  {
-    "date": "2022-12-03",
-    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
-    "venue": "KINTEX",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/324941"
   }
 ]
