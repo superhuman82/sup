@@ -70,13 +70,6 @@
     "url": "https://www.eventernote.com/events/464371"
   },
   {
-    "date": "2026-11-07",
-    "title": "ILLUSTAR WEEK Vol.1 夢限大みゅーたいぷ トークショーとサイン会 DAY 1",
-    "venue": "",
-    "time": "",
-    "url": "https://www.eventernote.com/events/497515"
-  },
-  {
     "date": "2026-10-17",
     "title": "LANDING ACTION WONDER FLIGHT : FLT 002 SAGARA MAYU  FAN MEETING 1部",
     "venue": "연남스페이스(延南スペース)",
@@ -159,13 +152,6 @@
     "venue": "MYUNGHWA LIVE HALL",
     "time": "15:00",
     "url": "https://www.eventernote.com/events/466976"
-  },
-  {
-    "date": "2026-05-09",
-    "title": "안녕！ W.ダブルヴィー 単独ライブ",
-    "venue": "SETi LIVE HALL",
-    "time": "20:00",
-    "url": "https://www.eventernote.com/events/477847"
   },
   {
     "date": "2026-04-18",
@@ -504,13 +490,6 @@
     "url": "https://www.eventernote.com/events/412590"
   },
   {
-    "date": "2025-02-09",
-    "title": "PROJECT iM@S 「vα-liv」 Special Stage in ILLUSTAR",
-    "venue": "KINTEX",
-    "time": "14:30",
-    "url": "https://www.eventernote.com/events/413853"
-  },
-  {
     "date": "2025-01-26",
     "title": "KIMCHIKURA×ANIRAVE KIMCHIKURA VOL.12",
     "venue": "HYUNDAI CARD UNDERSTAGE",
@@ -665,11 +644,18 @@
     "url": "https://www.eventernote.com/events/384298"
   },
   {
-    "date": "2024-07-21",
-    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul기념 스마트폰 촬영회",
-    "venue": "アニメイトKOREA main store ホンデ",
-    "time": "17:00",
-    "url": "https://www.eventernote.com/events/397420"
+    "date": "2024-07-20",
+    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 2日目 2部",
+    "venue": "CTS Art Hall",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/377259"
+  },
+  {
+    "date": "2024-07-19",
+    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 1日目",
+    "venue": "CTS Art Hall",
+    "time": "20:00",
+    "url": "https://www.eventernote.com/events/371199"
   },
   {
     "date": "2024-05-19",
@@ -714,18 +700,18 @@
     "url": "https://www.eventernote.com/events/366889"
   },
   {
-    "date": "2024-02-17",
-    "title": "KIMCHIKURA Fes VOL.02 in ILLUSTAR 亜咲花特典会",
-    "venue": "KINTEX",
-    "time": "15:00",
-    "url": "https://www.eventernote.com/events/369638"
-  },
-  {
     "date": "2024-01-21",
     "title": "Say U Fan vol.2 harmoe FAN MEETING 第1部",
     "venue": "イルチアートホール(ILCHI ART HALL)",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/363129"
+  },
+  {
+    "date": "2024-01-21",
+    "title": "Say U Fan vol.2 harmoe FAN MEETING 第2部",
+    "venue": "イルチアートホール(ILCHI ART HALL)",
+    "time": "16:30",
+    "url": "https://www.eventernote.com/events/363130"
   },
   {
     "date": "2024-01-14",
@@ -784,13 +770,6 @@
     "url": "https://www.eventernote.com/events/346188"
   },
   {
-    "date": "2023-12-02",
-    "title": "AGF KOREA 2023 day1",
-    "venue": "KINTEX",
-    "time": "10:00",
-    "url": "https://www.eventernote.com/events/346187"
-  },
-  {
     "date": "2023-11-12",
     "title": "Liyuu Fanmeeting in Seoul 2023 「안녕 Seoul！」1部",
     "venue": "White Wave Art center (White Hall)",
@@ -803,6 +782,13 @@
     "venue": "ALIVE HALL",
     "time": "14:00",
     "url": "https://www.eventernote.com/events/349687"
+  },
+  {
+    "date": "2023-12-02",
+    "title": "AGF KOREA 2023 day1",
+    "venue": "KINTEX",
+    "time": "10:00",
+    "url": "https://www.eventernote.com/events/346187"
   },
   {
     "date": "2023-10-07",
@@ -915,6 +901,13 @@
     "venue": "KINTEX",
     "time": "10:00",
     "url": "https://www.eventernote.com/events/315588"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
   },
   {
     "date": "2022-12-03",
