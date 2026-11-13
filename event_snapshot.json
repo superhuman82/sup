@@ -225,6 +225,13 @@
   },
   {
     "date": "2025-12-07",
+    "title": "Anime X Game Festival 2025 DAY3",
+    "venue": "KINTEX",
+    "time": "09:30",
+    "url": "https://www.eventernote.com/events/435492"
+  },
+  {
+    "date": "2025-12-07",
     "title": "Anime X Game Festival 2025 DAY3 RED STAGE 『勇者刑に処す 懲罰勇者9004隊刑務記録』",
     "venue": "KINTEX",
     "time": "15:30",
@@ -658,20 +665,6 @@
     "url": "https://www.eventernote.com/events/384298"
   },
   {
-    "date": "2024-07-21",
-    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul기념 스마트폰 촬영회",
-    "venue": "アニメイトKOREA main store ホンデ",
-    "time": "17:00",
-    "url": "https://www.eventernote.com/events/397420"
-  },
-  {
-    "date": "2024-07-20",
-    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 2日目 2部",
-    "venue": "CTS Art Hall",
-    "time": "17:30",
-    "url": "https://www.eventernote.com/events/377259"
-  },
-  {
     "date": "2024-07-19",
     "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 1日目",
     "venue": "CTS Art Hall",
@@ -719,6 +712,13 @@
     "venue": "KINTEX",
     "time": "17:30",
     "url": "https://www.eventernote.com/events/366889"
+  },
+  {
+    "date": "2024-02-17",
+    "title": "KIMCHIKURA Fes VOL.02 in ILLUSTAR 亜咲花特典会",
+    "venue": "KINTEX",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/369638"
   },
   {
     "date": "2024-01-21",
@@ -791,6 +791,13 @@
     "url": "https://www.eventernote.com/events/346188"
   },
   {
+    "date": "2023-12-02",
+    "title": "AGF KOREA 2023 day1",
+    "venue": "KINTEX",
+    "time": "10:00",
+    "url": "https://www.eventernote.com/events/346187"
+  },
+  {
     "date": "2023-11-12",
     "title": "Liyuu Fanmeeting in Seoul 2023 「안녕 Seoul！」1部",
     "venue": "White Wave Art center (White Hall)",
@@ -854,13 +861,6 @@
     "url": "https://www.eventernote.com/events/332440"
   },
   {
-    "date": "2023-03-18",
-    "title": "『ガルパ6周年記念ファンフェスタ in 秋葉原』6周年記念みんなでガルパプレイ！ステージ",
-    "venue": "ベルサール秋葉原",
-    "time": "17:00",
-    "url": "https://www.eventernote.com/events/332444"
-  },
-  {
     "date": "2023-03-11",
     "title": "『ワールドツアー上映「鬼滅の刃」上弦集結、そして刀鍛冶の里へ』6th ソウル 14:20回",
     "venue": "CGV Yongsan I-Park Mall",
@@ -911,13 +911,6 @@
   },
   {
     "date": "2022-12-03",
-    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
-    "venue": "KINTEX",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/324941"
-  },
-  {
-    "date": "2022-12-03",
     "title": "AGF KOREA 2022 「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ステージ",
     "venue": "KINTEX",
     "time": "12:45",
@@ -929,5 +922,12 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
   }
 ]
