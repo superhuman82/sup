@@ -161,20 +161,6 @@
     "url": "https://www.eventernote.com/events/466976"
   },
   {
-    "date": "2026-05-09",
-    "title": "IDOL PALETTE Vol.67",
-    "venue": "SETi LIVE HALL",
-    "time": "15:00",
-    "url": "https://www.eventernote.com/events/477834"
-  },
-  {
-    "date": "2026-05-09",
-    "title": "안녕！ W.ダブルヴィー 単独ライブ",
-    "venue": "SETi LIVE HALL",
-    "time": "20:00",
-    "url": "https://www.eventernote.com/events/477847"
-  },
-  {
     "date": "2026-04-18",
     "title": "TOGENASHI TOGEARI Live in SEOUL \"Rinne no Kotowari\"",
     "venue": "YES24 LIVE HALL (旧 AX-Korea)",
@@ -344,13 +330,6 @@
   },
   {
     "date": "2025-10-18",
-    "title": "Kona Tsukine Fan Meeting in Seoul 1部",
-    "venue": "SeongAm Art Hall",
-    "time": "13:30",
-    "url": "https://www.eventernote.com/events/441848"
-  },
-  {
-    "date": "2025-10-18",
     "title": "Kona Tsukine Fan Meeting in Seoul 2部",
     "venue": "SeongAm Art Hall",
     "time": "17:30",
@@ -511,6 +490,13 @@
     "url": "https://www.eventernote.com/events/412590"
   },
   {
+    "date": "2025-02-09",
+    "title": "PROJECT iM@S 「vα-liv」 Special Stage in ILLUSTAR",
+    "venue": "KINTEX",
+    "time": "14:30",
+    "url": "https://www.eventernote.com/events/413853"
+  },
+  {
     "date": "2025-01-26",
     "title": "KIMCHIKURA×ANIRAVE KIMCHIKURA VOL.12",
     "venue": "HYUNDAI CARD UNDERSTAGE",
@@ -537,13 +523,6 @@
     "venue": "高麗大学校 化汀(ファジョン)体育館 (KOREA UNIVERSITY, HWA-JEONG TIGER DOME)",
     "time": "18:00",
     "url": "https://www.eventernote.com/events/385051"
-  },
-  {
-    "date": "2024-12-14",
-    "title": "LoveLive! Series Asia Tour 2024 ～みんなで叶える物語～ ソウル公演 ＜Day.1＞ - お見送り会",
-    "venue": "高麗大学校 化汀(ファジョン)体育館 (KOREA UNIVERSITY, HWA-JEONG TIGER DOME)",
-    "time": "20:30",
-    "url": "https://www.eventernote.com/events/448465"
   },
   {
     "date": "2024-12-14",
@@ -820,20 +799,6 @@
   },
   {
     "date": "2023-10-07",
-    "title": "Pileアジアツアー2023 韓国公演 1日目 1部",
-    "venue": "ALIVE HALL",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/349686"
-  },
-  {
-    "date": "2023-10-07",
-    "title": "Pileアジアツアー2023 韓国公演 1日目 2部",
-    "venue": "ALIVE HALL",
-    "time": "18:00",
-    "url": "https://www.eventernote.com/events/352386"
-  },
-  {
-    "date": "2023-10-07",
     "title": "KIMCHIKURA with ILLUSTAR FES",
     "venue": "KINTEX",
     "time": "",
@@ -939,13 +904,6 @@
   },
   {
     "date": "2022-12-03",
-    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
-    "venue": "KINTEX",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/324941"
-  },
-  {
-    "date": "2022-12-03",
     "title": "AGF KOREA 2022 「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ステージ",
     "venue": "KINTEX",
     "time": "12:45",
@@ -957,5 +915,12 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
   }
 ]
