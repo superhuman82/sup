@@ -66,7 +66,7 @@
     "date": "2026-11-14",
     "title": "LoveLive! Series 15th Anniversary ラブライブ！フェス Day.1",
     "venue": "バンテリンドーム ナゴヤ(ナゴヤドーム)",
-    "time": "16:30",
+    "time": "16:40",
     "url": "https://www.eventernote.com/events/464371"
   },
   {
@@ -159,6 +159,13 @@
     "venue": "MYUNGHWA LIVE HALL",
     "time": "15:00",
     "url": "https://www.eventernote.com/events/466976"
+  },
+  {
+    "date": "2026-05-09",
+    "title": "안녕！ W.ダブルヴィー 単独ライブ",
+    "venue": "SETi LIVE HALL",
+    "time": "20:00",
+    "url": "https://www.eventernote.com/events/477847"
   },
   {
     "date": "2026-04-18",
@@ -315,18 +322,18 @@
     "url": "https://www.eventernote.com/events/444958"
   },
   {
-    "date": "2025-11-01",
-    "title": "Say U Fan vol.11 前田佳織里 FAN MEETING 第2部",
-    "venue": "イルチアートホール(ILCHI ART HALL)",
-    "time": "17:00",
-    "url": "https://www.eventernote.com/events/445187"
-  },
-  {
     "date": "2025-10-25",
     "title": "TRAVIS SCOTT - CIRCUS MAXIMUS in Korea",
     "venue": "高陽総合運動場(Goyang Stadium)",
     "time": "22:00",
     "url": "https://www.eventernote.com/events/464521"
+  },
+  {
+    "date": "2025-10-18",
+    "title": "Kona Tsukine Fan Meeting in Seoul 1部",
+    "venue": "SeongAm Art Hall",
+    "time": "13:30",
+    "url": "https://www.eventernote.com/events/441848"
   },
   {
     "date": "2025-10-18",
@@ -526,6 +533,13 @@
   },
   {
     "date": "2024-12-14",
+    "title": "LoveLive! Series Asia Tour 2024 ～みんなで叶える物語～ ソウル公演 ＜Day.1＞ - お見送り会",
+    "venue": "高麗大学校 化汀(ファジョン)体育館 (KOREA UNIVERSITY, HWA-JEONG TIGER DOME)",
+    "time": "20:30",
+    "url": "https://www.eventernote.com/events/448465"
+  },
+  {
+    "date": "2024-12-14",
     "title": "LoveLive! Series Asia Tour 2024 ～みんなで叶える物語～ ソウル公演 ＜Day.1＞",
     "venue": "高麗大学校 化汀(ファジョン)体育館 (KOREA UNIVERSITY, HWA-JEONG TIGER DOME)",
     "time": "19:00",
@@ -649,6 +663,13 @@
     "venue": "横浜LANDMARK HALL(横浜ランドマークホール)",
     "time": "15:30",
     "url": "https://www.eventernote.com/events/384298"
+  },
+  {
+    "date": "2024-07-21",
+    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul기념 스마트폰 촬영회",
+    "venue": "アニメイトKOREA main store ホンデ",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/397420"
   },
   {
     "date": "2024-07-20",
@@ -799,6 +820,20 @@
   },
   {
     "date": "2023-10-07",
+    "title": "Pileアジアツアー2023 韓国公演 1日目 1部",
+    "venue": "ALIVE HALL",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/349686"
+  },
+  {
+    "date": "2023-10-07",
+    "title": "Pileアジアツアー2023 韓国公演 1日目 2部",
+    "venue": "ALIVE HALL",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/352386"
+  },
+  {
+    "date": "2023-10-07",
     "title": "KIMCHIKURA with ILLUSTAR FES",
     "venue": "KINTEX",
     "time": "",
@@ -855,13 +890,6 @@
   },
   {
     "date": "2023-03-11",
-    "title": "『ワールドツアー上映「鬼滅の刃」上弦集結、そして刀鍛冶の里へ』6th ソウル 14:20回",
-    "venue": "CGV Yongsan I-Park Mall",
-    "time": "14:20",
-    "url": "https://www.eventernote.com/events/336043"
-  },
-  {
-    "date": "2023-03-11",
     "title": "『ワールドツアー上映「鬼滅の刃」上弦集結、そして刀鍛冶の里へ』6th ソウル 13:10回",
     "venue": "CGV Yongsan I-Park Mall",
     "time": "13:10",
@@ -915,12 +943,5 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
-  },
-  {
-    "date": "2022-12-03",
-    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
-    "venue": "KINTEX",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/324941"
   }
 ]
