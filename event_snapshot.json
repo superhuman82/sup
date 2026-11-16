@@ -35,6 +35,20 @@
     "url": "https://www.eventernote.com/events/497876"
   },
   {
+    "date": "2027-02-14",
+    "title": "LoveLive! Series 15th Annivesary ラブライブ！フェス Encore in TOKYO DOME Day.2",
+    "venue": "東京ドーム",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/500459"
+  },
+  {
+    "date": "2027-02-13",
+    "title": "LoveLive! Series 15th Annivesary ラブライブ！フェス Encore in TOKYO DOME Day.1",
+    "venue": "東京ドーム",
+    "time": "17:00",
+    "url": "https://www.eventernote.com/events/500460"
+  },
+  {
     "date": "2027-01-24",
     "title": "KIMCHIKURA × ANISAMA SEOUL 2027 DAY2",
     "venue": "BLUE SQUARE Woori WON Banking Hall",
@@ -159,20 +173,6 @@
     "venue": "MYUNGHWA LIVE HALL",
     "time": "15:00",
     "url": "https://www.eventernote.com/events/466976"
-  },
-  {
-    "date": "2026-05-09",
-    "title": "IDOL PALETTE Vol.67",
-    "venue": "SETi LIVE HALL",
-    "time": "15:00",
-    "url": "https://www.eventernote.com/events/477834"
-  },
-  {
-    "date": "2026-05-09",
-    "title": "안녕！ W.ダブルヴィー 単独ライブ",
-    "venue": "SETi LIVE HALL",
-    "time": "20:00",
-    "url": "https://www.eventernote.com/events/477847"
   },
   {
     "date": "2026-04-18",
@@ -511,13 +511,6 @@
     "url": "https://www.eventernote.com/events/412590"
   },
   {
-    "date": "2025-02-09",
-    "title": "PROJECT iM@S 「vα-liv」 Special Stage in ILLUSTAR",
-    "venue": "KINTEX",
-    "time": "14:30",
-    "url": "https://www.eventernote.com/events/413853"
-  },
-  {
     "date": "2025-01-26",
     "title": "KIMCHIKURA×ANIRAVE KIMCHIKURA VOL.12",
     "venue": "HYUNDAI CARD UNDERSTAGE",
@@ -742,13 +735,6 @@
     "url": "https://www.eventernote.com/events/366889"
   },
   {
-    "date": "2024-02-17",
-    "title": "KIMCHIKURA Fes VOL.02 in ILLUSTAR 亜咲花特典会",
-    "venue": "KINTEX",
-    "time": "15:00",
-    "url": "https://www.eventernote.com/events/369638"
-  },
-  {
     "date": "2024-01-21",
     "title": "Say U Fan vol.2 harmoe FAN MEETING 第1部",
     "venue": "イルチアートホール(ILCHI ART HALL)",
@@ -838,20 +824,6 @@
     "venue": "ALIVE HALL",
     "time": "14:00",
     "url": "https://www.eventernote.com/events/349687"
-  },
-  {
-    "date": "2023-10-07",
-    "title": "Pileアジアツアー2023 韓国公演 1日目 1部",
-    "venue": "ALIVE HALL",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/349686"
-  },
-  {
-    "date": "2023-10-07",
-    "title": "Pileアジアツアー2023 韓国公演 1日目 2部",
-    "venue": "ALIVE HALL",
-    "time": "18:00",
-    "url": "https://www.eventernote.com/events/352386"
   },
   {
     "date": "2023-10-07",
@@ -945,13 +917,6 @@
     "url": "https://www.eventernote.com/events/315589"
   },
   {
-    "date": "2022-12-04",
-    "title": "AGF KOREA 2022 「ラブライブ！虹ヶ咲学園スクールアイドル同好会」コラボカフェ一日店長イベント",
-    "venue": "KINTEX",
-    "time": "16:00",
-    "url": "https://www.eventernote.com/events/327160"
-  },
-  {
     "date": "2022-12-03",
     "title": "AGF KOREA 2022 day1",
     "venue": "KINTEX",
@@ -971,5 +936,12 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
   }
 ]
