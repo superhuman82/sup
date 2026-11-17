@@ -175,20 +175,6 @@
     "url": "https://www.eventernote.com/events/466976"
   },
   {
-    "date": "2026-05-09",
-    "title": "IDOL PALETTE Vol.67",
-    "venue": "SETi LIVE HALL",
-    "time": "15:00",
-    "url": "https://www.eventernote.com/events/477834"
-  },
-  {
-    "date": "2026-05-09",
-    "title": "안녕！ W.ダブルヴィー 単独ライブ",
-    "venue": "SETi LIVE HALL",
-    "time": "20:00",
-    "url": "https://www.eventernote.com/events/477847"
-  },
-  {
     "date": "2026-04-18",
     "title": "TOGENASHI TOGEARI Live in SEOUL \"Rinne no Kotowari\"",
     "venue": "YES24 LIVE HALL (旧 AX-Korea)",
@@ -250,6 +236,13 @@
     "venue": "KINTEX",
     "time": "16:45",
     "url": "https://www.eventernote.com/events/448885"
+  },
+  {
+    "date": "2025-12-07",
+    "title": "Anime X Game Festival 2025 DAY3",
+    "venue": "KINTEX",
+    "time": "09:30",
+    "url": "https://www.eventernote.com/events/435492"
   },
   {
     "date": "2025-12-07",
@@ -369,6 +362,13 @@
     "venue": "イルチアートホール(ILCHI ART HALL)",
     "time": "13:30",
     "url": "https://www.eventernote.com/events/442567"
+  },
+  {
+    "date": "2025-09-27",
+    "title": "AKARI KITO ASIA Fan Meeting Tour 2025 ソウル公演 1部",
+    "venue": "GABIN ART HALL",
+    "time": "13:30",
+    "url": "https://www.eventernote.com/events/428453"
   },
   {
     "date": "2025-09-25",
@@ -511,6 +511,13 @@
     "url": "https://www.eventernote.com/events/412590"
   },
   {
+    "date": "2025-02-09",
+    "title": "PROJECT iM@S 「vα-liv」 Special Stage in ILLUSTAR",
+    "venue": "KINTEX",
+    "time": "14:30",
+    "url": "https://www.eventernote.com/events/413853"
+  },
+  {
     "date": "2025-01-26",
     "title": "KIMCHIKURA×ANIRAVE KIMCHIKURA VOL.12",
     "venue": "HYUNDAI CARD UNDERSTAGE",
@@ -586,6 +593,13 @@
     "venue": "West Bridge Live Hall",
     "time": "17:30",
     "url": "https://www.eventernote.com/events/384118"
+  },
+  {
+    "date": "2024-11-30",
+    "title": "ASAKA LIVE in Seoul (supported by KOE) VIP限定サイン会",
+    "venue": "West Bridge Live Hall",
+    "time": "19:10",
+    "url": "https://www.eventernote.com/events/398215"
   },
   {
     "date": "2024-11-16",
@@ -672,13 +686,6 @@
     "url": "https://www.eventernote.com/events/397420"
   },
   {
-    "date": "2024-07-20",
-    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 2日目 2部",
-    "venue": "CTS Art Hall",
-    "time": "17:30",
-    "url": "https://www.eventernote.com/events/377259"
-  },
-  {
     "date": "2024-07-19",
     "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 1日目",
     "venue": "CTS Art Hall",
@@ -733,6 +740,13 @@
     "venue": "イルチアートホール(ILCHI ART HALL)",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/363129"
+  },
+  {
+    "date": "2024-01-21",
+    "title": "Say U Fan vol.2 harmoe FAN MEETING 第2部",
+    "venue": "イルチアートホール(ILCHI ART HALL)",
+    "time": "16:30",
+    "url": "https://www.eventernote.com/events/363130"
   },
   {
     "date": "2024-01-14",
@@ -826,20 +840,6 @@
     "url": "https://www.eventernote.com/events/351263"
   },
   {
-    "date": "2023-09-02",
-    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 NEXT SKY 特別上映会 1回目",
-    "venue": "MEGABOX COEX",
-    "time": "11:00",
-    "url": "https://www.eventernote.com/events/351793"
-  },
-  {
-    "date": "2023-09-02",
-    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 NEXT SKY 特別上映会 2回目",
-    "venue": "MEGABOX COEX",
-    "time": "13:00",
-    "url": "https://www.eventernote.com/events/351794"
-  },
-  {
     "date": "2023-05-13",
     "title": "キムチクラ KIMCHIKURA VOL.10",
     "venue": "CLUB G1",
@@ -866,6 +866,13 @@
     "venue": "ベルサール秋葉原",
     "time": "17:00",
     "url": "https://www.eventernote.com/events/332444"
+  },
+  {
+    "date": "2023-03-11",
+    "title": "『ワールドツアー上映「鬼滅の刃」上弦集結、そして刀鍛冶の里へ』6th ソウル 14:20回",
+    "venue": "CGV Yongsan I-Park Mall",
+    "time": "14:20",
+    "url": "https://www.eventernote.com/events/336043"
   },
   {
     "date": "2023-03-11",
@@ -911,6 +918,13 @@
   },
   {
     "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
+  },
+  {
+    "date": "2022-12-03",
     "title": "AGF KOREA 2022 「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ステージ",
     "venue": "KINTEX",
     "time": "12:45",
@@ -922,12 +936,5 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
-  },
-  {
-    "date": "2022-12-03",
-    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
-    "venue": "KINTEX",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/324941"
   }
 ]
