@@ -175,6 +175,20 @@
     "url": "https://www.eventernote.com/events/466976"
   },
   {
+    "date": "2026-05-09",
+    "title": "IDOL PALETTE Vol.67",
+    "venue": "SETi LIVE HALL",
+    "time": "15:00",
+    "url": "https://www.eventernote.com/events/477834"
+  },
+  {
+    "date": "2026-05-09",
+    "title": "안녕！ W.ダブルヴィー 単独ライブ",
+    "venue": "SETi LIVE HALL",
+    "time": "20:00",
+    "url": "https://www.eventernote.com/events/477847"
+  },
+  {
     "date": "2026-04-18",
     "title": "TOGENASHI TOGEARI Live in SEOUL \"Rinne no Kotowari\"",
     "venue": "YES24 LIVE HALL (旧 AX-Korea)",
@@ -414,6 +428,13 @@
   },
   {
     "date": "2025-06-21",
+    "title": "i☆Ris 5thアルバム「ViVa i☆DOL」発売記念リリースイベント ＜東京イベント＞（2部）",
+    "venue": "アニメイト池袋本店 9F animate hall BLACK",
+    "time": "15:30",
+    "url": "https://www.eventernote.com/events/425957"
+  },
+  {
+    "date": "2025-06-21",
     "title": "i☆Ris 5thアルバム「ViVa i☆DOL」発売記念リリースイベント ＜東京イベント＞（1部）",
     "venue": "アニメイト池袋本店 9F animate hall BLACK",
     "time": "11:00",
@@ -581,13 +602,6 @@
     "url": "https://www.eventernote.com/events/384118"
   },
   {
-    "date": "2024-11-30",
-    "title": "ASAKA LIVE in Seoul (supported by KOE) VIP限定サイン会",
-    "venue": "West Bridge Live Hall",
-    "time": "19:10",
-    "url": "https://www.eventernote.com/events/398215"
-  },
-  {
     "date": "2024-11-16",
     "title": "プリティーシリーズ Crossing Live 2024 昼の部",
     "venue": "パシフィコ横浜  国立大ホール",
@@ -665,13 +679,6 @@
     "url": "https://www.eventernote.com/events/384298"
   },
   {
-    "date": "2024-07-21",
-    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul기념 스마트폰 촬영회",
-    "venue": "アニメイトKOREA main store ホンデ",
-    "time": "17:00",
-    "url": "https://www.eventernote.com/events/397420"
-  },
-  {
     "date": "2024-07-20",
     "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 2日目 2部",
     "venue": "CTS Art Hall",
@@ -707,6 +714,13 @@
     "url": "https://www.eventernote.com/events/368245"
   },
   {
+    "date": "2024-04-06",
+    "title": "鬼頭明里ファンクラブイベント「smile giving day vol.4」夜の部",
+    "venue": "品川インターシティホール",
+    "time": "18:00",
+    "url": "https://www.eventernote.com/events/368246"
+  },
+  {
     "date": "2024-03-09",
     "title": "【出演者変更】LoveLive! Series Presents ユニット甲子園 2024 ＜Day.1＞",
     "venue": "Kアリーナ横浜",
@@ -719,13 +733,6 @@
     "venue": "KINTEX",
     "time": "17:30",
     "url": "https://www.eventernote.com/events/366889"
-  },
-  {
-    "date": "2024-02-17",
-    "title": "KIMCHIKURA Fes VOL.02 in ILLUSTAR 亜咲花特典会",
-    "venue": "KINTEX",
-    "time": "15:00",
-    "url": "https://www.eventernote.com/events/369638"
   },
   {
     "date": "2024-01-21",
@@ -925,6 +932,13 @@
   },
   {
     "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
+  },
+  {
+    "date": "2022-12-03",
     "title": "AGF KOREA 2022 「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ステージ",
     "venue": "KINTEX",
     "time": "12:45",
@@ -936,12 +950,5 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
-  },
-  {
-    "date": "2022-12-03",
-    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
-    "venue": "KINTEX",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/324941"
   }
 ]
