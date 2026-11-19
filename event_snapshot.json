@@ -525,6 +525,13 @@
     "url": "https://www.eventernote.com/events/412590"
   },
   {
+    "date": "2025-02-09",
+    "title": "PROJECT iM@S 「vα-liv」 Special Stage in ILLUSTAR",
+    "venue": "KINTEX",
+    "time": "14:30",
+    "url": "https://www.eventernote.com/events/413853"
+  },
+  {
     "date": "2025-01-26",
     "title": "KIMCHIKURA×ANIRAVE KIMCHIKURA VOL.12",
     "venue": "HYUNDAI CARD UNDERSTAGE",
@@ -600,6 +607,13 @@
     "venue": "West Bridge Live Hall",
     "time": "17:30",
     "url": "https://www.eventernote.com/events/384118"
+  },
+  {
+    "date": "2024-11-30",
+    "title": "ASAKA LIVE in Seoul (supported by KOE) VIP限定サイン会",
+    "venue": "West Bridge Live Hall",
+    "time": "19:10",
+    "url": "https://www.eventernote.com/events/398215"
   },
   {
     "date": "2024-11-16",
@@ -740,13 +754,6 @@
     "venue": "イルチアートホール(ILCHI ART HALL)",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/363129"
-  },
-  {
-    "date": "2024-01-21",
-    "title": "Say U Fan vol.2 harmoe FAN MEETING 第2部",
-    "venue": "イルチアートホール(ILCHI ART HALL)",
-    "time": "16:30",
-    "url": "https://www.eventernote.com/events/363130"
   },
   {
     "date": "2024-01-14",
@@ -932,13 +939,6 @@
   },
   {
     "date": "2022-12-03",
-    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
-    "venue": "KINTEX",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/324941"
-  },
-  {
-    "date": "2022-12-03",
     "title": "AGF KOREA 2022 「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ステージ",
     "venue": "KINTEX",
     "time": "12:45",
@@ -950,5 +950,12 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
   }
 ]
