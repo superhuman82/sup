@@ -175,13 +175,6 @@
     "url": "https://www.eventernote.com/events/466976"
   },
   {
-    "date": "2026-05-09",
-    "title": "안녕！ W.ダブルヴィー 単独ライブ",
-    "venue": "SETi LIVE HALL",
-    "time": "20:00",
-    "url": "https://www.eventernote.com/events/477847"
-  },
-  {
     "date": "2026-04-18",
     "title": "TOGENASHI TOGEARI Live in SEOUL \"Rinne no Kotowari\"",
     "venue": "YES24 LIVE HALL (旧 AX-Korea)",
@@ -421,13 +414,6 @@
   },
   {
     "date": "2025-06-21",
-    "title": "i☆Ris 5thアルバム「ViVa i☆DOL」発売記念リリースイベント ＜東京イベント＞（2部）",
-    "venue": "アニメイト池袋本店 9F animate hall BLACK",
-    "time": "15:30",
-    "url": "https://www.eventernote.com/events/425957"
-  },
-  {
-    "date": "2025-06-21",
     "title": "i☆Ris 5thアルバム「ViVa i☆DOL」発売記念リリースイベント ＜東京イベント＞（1部）",
     "venue": "アニメイト池袋本店 9F animate hall BLACK",
     "time": "11:00",
@@ -516,13 +502,6 @@
     "venue": "KINTEX",
     "time": "15:00",
     "url": "https://www.eventernote.com/events/412590"
-  },
-  {
-    "date": "2025-02-09",
-    "title": "PROJECT iM@S 「vα-liv」 Special Stage in ILLUSTAR",
-    "venue": "KINTEX",
-    "time": "14:30",
-    "url": "https://www.eventernote.com/events/413853"
   },
   {
     "date": "2025-01-26",
@@ -693,6 +672,13 @@
     "url": "https://www.eventernote.com/events/397420"
   },
   {
+    "date": "2024-07-20",
+    "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 2日目 2部",
+    "venue": "CTS Art Hall",
+    "time": "17:30",
+    "url": "https://www.eventernote.com/events/377259"
+  },
+  {
     "date": "2024-07-19",
     "title": "Love Live! TV Animation 10th Anniversary Overseas Events in Seoul 1日目",
     "venue": "CTS Art Hall",
@@ -719,13 +705,6 @@
     "venue": "品川インターシティホール",
     "time": "15:00",
     "url": "https://www.eventernote.com/events/368245"
-  },
-  {
-    "date": "2024-04-06",
-    "title": "鬼頭明里ファンクラブイベント「smile giving day vol.4」夜の部",
-    "venue": "品川インターシティホール",
-    "time": "18:00",
-    "url": "https://www.eventernote.com/events/368246"
   },
   {
     "date": "2024-03-09",
@@ -838,20 +817,6 @@
     "venue": "ALIVE HALL",
     "time": "14:00",
     "url": "https://www.eventernote.com/events/349687"
-  },
-  {
-    "date": "2023-10-07",
-    "title": "Pileアジアツアー2023 韓国公演 1日目 1部",
-    "venue": "ALIVE HALL",
-    "time": "14:00",
-    "url": "https://www.eventernote.com/events/349686"
-  },
-  {
-    "date": "2023-10-07",
-    "title": "Pileアジアツアー2023 韓国公演 1日目 2部",
-    "venue": "ALIVE HALL",
-    "time": "18:00",
-    "url": "https://www.eventernote.com/events/352386"
   },
   {
     "date": "2023-10-07",
@@ -971,5 +936,12 @@
     "venue": "中央大学 多摩キャンパス",
     "time": "13:00",
     "url": "https://www.eventernote.com/events/319069"
+  },
+  {
+    "date": "2022-12-03",
+    "title": "AGF KOREA 2022『鬼滅の刃』ステージ",
+    "venue": "KINTEX",
+    "time": "14:00",
+    "url": "https://www.eventernote.com/events/324941"
   }
 ]
